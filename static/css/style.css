@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: bisque
 }
 
 .container {
@@ -11,6 +11,7 @@ body {
 
 .expense {
     justify-content: space-around;
+    background-color: aquamarine;
     width: 15%;
     height: 100px;
     background-color: #ccc;
