@@ -31,10 +31,11 @@ def update(request, expense_id):
         if form.is_valid():
             form.save()
             return redirect('exp_page')
+    
     form = ExpenseForm(instance=expense)
     context = {
         'form': form
     }
-    return render(request, 'update_expenses.html')
+    return render(request, 'update_expenses.html', context)
 
 

@@ -33,11 +33,15 @@
            
             
             <p>{{expense.date_field}}</p>
+            <a href = "/update/{{ expense.id }}">Edit Expense</a>
+            <a href = "/delete/{{ expense.id }}">Edit Expense</a>
             
             </div>
         
         {% endfor %}
    </div>
+   <a href = "/update/{{expense.id}}">Edit this item</a>
+   <a href = "/delete/{{expense.id}}">Delete this item</a>
 
     
 </body>
