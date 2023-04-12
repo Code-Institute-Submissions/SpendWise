@@ -7,7 +7,28 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Update</h1>
+    <header id = "home">
+
+        <h1 id = "main">Expense Tracker</h1>
+        <nav>
+            <ul id ="menu">
+                <li><a href="">Home</a></li>
+                <li><a href= "" >Expenses</a></li>
+                <li><a >Login</a></li>
+                <li><a >Register</a></li>
+            </ul>   
+        </nav>
+
+        <form  method= "POST" >
+            {% csrf_token %}
+            {{form}}
+    
+            <button type="submit">Update Item</button>
+    
+        </form>
+    </header>
+    
+    
     
 </body>
 </html>

@@ -30,7 +30,7 @@ def update(request, expense_id):
         form = ExpenseForm(request.POST, instance = expense)
         if form.is_valid():
             form.save()
-            return redirect('main')
+            return redirect('exp_page')
     form = ExpenseForm(instance=expense)
     context = {
         'form': form
