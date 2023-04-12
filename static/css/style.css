@@ -1,6 +1,19 @@
+body {
+    background-color: red;
+}
+
 .container {
 
     display: flex;
     flex-wrap: wrap;
     border: solid 2px black;
+}
+
+.expense {
+    justify-content: space-around;
+    width: 15%;
+    height: 100px;
+    background-color: #ccc;
+    margin: 5px;
+    
 }
