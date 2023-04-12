@@ -1,3 +1,9 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+
 body {
     background-color: bisque
 }
@@ -19,4 +25,40 @@ body {
     background-color: #ccc;
     margin: 5px;
     
+}
+
+#home {
+    background-color: #5ABCB9;
+   
+}
+#home h1 { 
+    font-size: 35px
+    
+}
+#main {  
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 35px;
+    color:black;
+    
+}
+#menu  {
+    text-align: center;
+    padding-top:20px; 
+    list-style:circle;
+    padding-bottom: 15px;
+}
+#menu li {
+    padding-left:15px;
+    display:inline;  
+   
+}
+#menu a {
+    
+    text-decoration: none; 
+    color:black;  
+}
+#menu a:hover {
+    background-color:#6EF9F5;
+   
 }
