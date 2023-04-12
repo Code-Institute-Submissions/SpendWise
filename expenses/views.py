@@ -24,7 +24,17 @@ def add(request):
     }
     return render(request, 'add_expenses.html', context)   
 
-def update(request):
+def update(request, expense_id):
+    expense = get_object_or_404(Expense, id = expense_id)
+    if request.method == "POST":
+        form = ExpenseForm(request.POST, instance = expense)
+        if form.is_valid():
+            form.save()
+            return redirect('main')
+    form = ExpenseForm(instance=expense)
+    context = {
+        'form': form
+    }
     return render(request, 'update_expenses.html')
 
 
