@@ -8,5 +8,16 @@
 </head>
 <body>
     <h1>expenses page</h1>
+
+    <div class = "container">
+        {% for expense in expenses %}   
+        
+    
+        <div id = "expense">{{expense.name}} {{expense.number}} {{expense.date_field}}</div>
+        
+        {% endfor %}
+   </div>
+
+    
 </body>
 </html>
