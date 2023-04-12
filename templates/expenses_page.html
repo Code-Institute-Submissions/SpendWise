@@ -14,7 +14,14 @@
         {% for expense in expenses %}   
         
     
-        <div class= "expense">{{expense.name}} {{expense.number}} {{expense.date_field}}</div>
+        <div class= "expense">
+            <h2>{{expense.name}}</h2>
+            
+            <p>{{expense.number}}</p>
+            
+            <p>{{expense.date_field}}</p>
+            
+            </div>
         
         {% endfor %}
    </div>
