@@ -8,5 +8,14 @@
 </head>
 <body>
     <h1>add expense</h1>
+
+    <form  method= "POST" action = "">
+        {% csrf_token %}
+        {{form}}
+
+        <button type="submit">Submit an expense</button>
+
+    </form>
+    =
 </body>
 </html>
