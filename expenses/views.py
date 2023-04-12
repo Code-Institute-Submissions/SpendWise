@@ -38,4 +38,10 @@ def update(request, expense_id):
     }
     return render(request, 'update_expenses.html', context)
 
+def delete(request, expense_id): 
+    expense = get_object_or_404(Expense, id = expense_id)
+    expense.delete()
+    return redirect('exp_page')
+
+
 
