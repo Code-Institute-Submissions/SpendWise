@@ -89,3 +89,22 @@ display:flex;
     height:200px;
     
 }
+#total_container {
+    display: flex;
+    justify-content: center;
+
+}
+#total {
+    height:200px;
+    width:50%;
+    background-color: lightcoral;
+    text-align: center;
+
+
+}
+#budget {
+    height: 200px;
+    width: 50%;
+    background-color: lightgreen;
+    text-align: center;
+}
