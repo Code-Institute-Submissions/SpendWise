@@ -5,10 +5,16 @@ from .forms import ExpenseForm
 
 def home(request):
     return render(request, 'home_page.html')   
+
 def exp_page(request):
+    numbers1 = Expense.objects.values_list('number', flat=True)
+    total = sum(numbers1)
+   
     expenses = Expense.objects.all()
+
     context = {
-        'expenses': expenses
+        'expenses': expenses,
+        'total': total,
     }
     return render(request, 'expenses_page.html', context)
 
