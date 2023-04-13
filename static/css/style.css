@@ -21,7 +21,7 @@ body {
     justify-content: space-around;
     background-color: aquamarine;
     width: 15%;
-    height: fit-content;
+    height: 100px;
     background-color: #ccc;
     margin: 5px;
     
@@ -67,4 +67,25 @@ body {
   flex-direction: column;
   align-items: center;
   border: solid 1px black;
+}
+
+#about_container {
+display:flex;
+}
+#text_box {
+    width:50%;
+    background-color: aquamarine;
+    padding:5%;
+
+}
+#image_container {
+    width:50%;
+    background-color: yellowgreen;
+    padding: 5%;
+
+}
+.contact {
+    background-color: #5ABCB9;
+    height:200px;
+    
 }
