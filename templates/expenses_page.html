@@ -15,8 +15,11 @@
             <ul id ="menu">
                 <li><a href="/">Home</a></li>
                 <li><a href= "/expenses/" >Expenses</a></li>
-                <li><a >Login</a></li>
-                <li><a >Register</a></li>
+                <li><a href="/accounts/signup/">Register</a></li>
+                <li><a href="/accounts/login/" >Login</a></li>
+                {% if user.is_authenticated %} 
+                <li><a href="/accounts/logout/" >Logout</a></li>
+                {% endif %}
             </ul>   
         </nav>
     </header>
@@ -41,8 +44,7 @@
         
         {% endfor %}
    </div>
-   <a href = "/update/{{expense.id}}">Edit this item</a>
-   <a href = "/delete/{{expense.id}}">Delete this item</a>
+  
 
     
 </body>
