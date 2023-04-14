@@ -89,14 +89,14 @@ display:flex;
     height:200px;
     
 }
-#total_container {
+#money_container {
     display: flex;
     justify-content: center;
 
 }
 #total {
     height:200px;
-    width:50%;
+    width: 30%;
     background-color: lightcoral;
     text-align: center;
 
@@ -104,7 +104,15 @@ display:flex;
 }
 #budget {
     height: 200px;
-    width: 50%;
+    width: 30%;
     background-color: lightgreen;
     text-align: center;
+}
+
+#leftover {
+    height: 200px;
+    width: 30%;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+
 }

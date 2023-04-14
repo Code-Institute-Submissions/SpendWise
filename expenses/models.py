@@ -16,6 +16,9 @@ class Expense(models.Model):
 
 class Budget(models.Model):
     max_budget = models.PositiveIntegerField(default=0,  validators=[MinValueValidator(1), MaxValueValidator(100000)])
+
+    def __str__(self):
+        return self.name
     
     
 

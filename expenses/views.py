@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Expense, Budget
-from .forms import ExpenseForm
+from .forms import ExpenseForm, BudgetForm
 # Create your views here.
 
 def home(request):
@@ -9,17 +9,18 @@ def home(request):
 def exp_page(request):
     user_budget = Budget.objects.values_list('max_budget', flat=True)
     budget_total = sum(user_budget)
-
-
+    
     numbers1 = Expense.objects.values_list('number', flat=True)
     total = sum(numbers1)
+
+    leftover = budget_total-total
    
     expenses = Expense.objects.all()
-
     context = {
         'expenses': expenses,
         'total': total,
         'budget_total': budget_total,
+        'leftover': leftover,
     }
     return render(request, 'expenses_page.html', context)
 
