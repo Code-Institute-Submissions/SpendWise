@@ -61,16 +61,16 @@ def delete(request, expense_id):
 
 
 
-def add_budget():
+def add_budget(request):
     if request.method == "POST":
         form = BudgetForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('exp_page')
 
-    form_budget = BudgetForm()
+    form = BudgetForm()
     context = {
-        'form_budget': form_budget,
+        'form': form,
     }
 
-    return render(request, 'budget_page', context)
+    return render(request, 'budget_page.html', context)
