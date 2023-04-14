@@ -7,6 +7,7 @@ def home(request):
     return render(request, 'home_page.html')   
 
 def exp_page(request):
+   
     user_budget = Budget.objects.values_list('max_budget', flat=True)
     budget_total = sum(user_budget)
     
@@ -16,16 +17,14 @@ def exp_page(request):
     leftover = budget_total-total
    
     expenses = Expense.objects.all()
-    form = BudgetForm()
-    context = {
-        'form': form
-    }
+    
+    
     context = {
         'expenses': expenses,
         'total': total,
         'budget_total': budget_total,
         'leftover': leftover,
-        'form':form,
+       
     }
     return render(request, 'expenses_page.html', context)
 
@@ -62,3 +61,16 @@ def delete(request, expense_id):
 
 
 
+def add_budget():
+    if request.method == "POST":
+        form = BudgetForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('exp_page')
+
+    form_budget = BudgetForm()
+    context = {
+        'form_budget': form_budget,
+    }
+
+    return render(request, 'budget_page', context)

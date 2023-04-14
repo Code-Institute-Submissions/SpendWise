@@ -116,3 +116,14 @@ display:flex;
     text-align: center;
 
 }
+
+#add_budget_container{
+
+}
+#budget_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+
+}
