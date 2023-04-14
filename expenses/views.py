@@ -16,11 +16,16 @@ def exp_page(request):
     leftover = budget_total-total
    
     expenses = Expense.objects.all()
+    form = BudgetForm()
+    context = {
+        'form': form
+    }
     context = {
         'expenses': expenses,
         'total': total,
         'budget_total': budget_total,
         'leftover': leftover,
+        'form':form,
     }
     return render(request, 'expenses_page.html', context)
 
