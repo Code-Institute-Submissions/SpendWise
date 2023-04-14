@@ -5,9 +5,8 @@
 }
 
 body {
-    background-color: bisque
+    background-color: #011C27
 }
-
 .container {
 
     text-align: center;
@@ -74,8 +73,9 @@ display:flex;
 }
 #text_box {
     width:50%;
-    background-color: aquamarine;
+    background-color: #011C27;
     padding:5%;
+    color: white;
 
 }
 #image_container {
