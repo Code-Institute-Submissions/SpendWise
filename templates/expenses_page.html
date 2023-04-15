@@ -23,7 +23,7 @@
             </ul>   
         </nav>
     </header>
-    <h1>expenses page</h1>
+    <h1>_</h1>
     
 
     {% if messages %}
@@ -35,33 +35,37 @@
     {% endif %}
 
     
-
+    {% if user.is_authenticated %}  
 
     <div id = "money_container">
         <div id= "budget">
-            <h1>Budget</h1>
-            <h1> $ {{budget_total}} </h1>
+            <h1>Initial Budget</h1>
+            <h2> $  {{budget_total}} </h2>
+
+        </div>
+       
+        <div id= "total">
+            <h1>Total Expenses</h1>
+            <h2> $ {{total}}</h2>
 
         </div>
         <div id= "leftover">
-            <h1>Current</h1>
-            <h1> $ {{leftover}}</h1>
-
-        </div>
-        <div id= "total">
-            <h1>Total Expenses</h1>
-            <h1> $ {{total}}</h1>
+            <h1>Current Budget</h1>
+            <h2> $ {{leftover}}</h2>
 
         </div>
 
     </div>
+    {% endif %}
     <a href="/add/">Add a new expense</a>
 
     <div class = "container">
+    {% if user.is_authenticated %}   
         {% for expense in expenses %}   
         
     
         <div class= "expense">
+            
             <h2>{{expense.name}}</h2>
             
             <p>$  {{expense.number}}</p>
@@ -74,8 +78,9 @@
             </div>
         
         {% endfor %}
+    {% endif %}
    </div>
-   <footer>
+  
     <footer>
         <ul class="social_media">
             <li>
@@ -92,7 +97,8 @@
             </li>
         </ul>
     </footer>
-</footer>
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
 
 
   
