@@ -33,6 +33,28 @@
         {% endfor %}
        </ul>
     {% endif %}
+    {% if not user.is_authenticated %}  
+
+    <div id = "placeholder_money_container">
+        <div id= "placeholder_budget">
+            <h1>Initial Budget</h1>
+            <h2> $  </h2>
+
+        </div>
+       
+        <div id= "placeholder_total">
+            <h1>Total Expenses</h1>
+            <h2> $ </h2>
+
+        </div>
+        <div id= "placeholder_leftover">
+            <h1>Current Budget</h1>
+            <h2> $ </h2>
+
+        </div>
+
+    </div>
+    {% endif %}
 
     
     {% if user.is_authenticated %}  
@@ -76,9 +98,10 @@
             <div class= "placeholder_expense"></div>
        </div>
     {% endif %}
+    {% if user.is_authenticated %}   
 
     <div class = "container">
-    {% if user.is_authenticated %}   
+    
         {% for expense in expenses %}   
         
     

@@ -13,7 +13,7 @@ body {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    border: solid 2px black;
+    border: solid 1px black;
 }
 
 .expense {
@@ -30,7 +30,7 @@ body {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    border: solid 2px black;
+    border: solid 1px black;
 
 
 }
@@ -140,6 +140,36 @@ display:flex;
     text-align: center;
 
 }
+#placeholder_money_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+#placeholder_total {
+    height:100px;
+    width: 30%;
+    color:red;
+    text-align: center;
+
+
+}
+#placeholder_budget {
+    height: 100px;
+    width: 30%;
+    color: rgb(4, 227, 4);
+    text-align: center;
+}
+
+#placeholder_leftover {
+    height: 100px;
+    width: 30%;
+    color: yellow;
+    text-align: center;
+
+}
+
 
 #add_budget_container{
 
