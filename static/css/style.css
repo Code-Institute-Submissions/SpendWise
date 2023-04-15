@@ -141,3 +141,11 @@ display:flex;
     padding: 5%;
     color:antiquewhite
 }
+
+.social_media i a:hover {
+    color: blue;
+  }
+  
+  a:active {
+    color: green;
+  }

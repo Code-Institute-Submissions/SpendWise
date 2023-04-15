@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Expense, Budget
 from .forms import ExpenseForm, BudgetForm
+from django.contrib import messages
 # Create your views here.
 
 def home(request):
@@ -32,6 +33,7 @@ def add(request):
     if request.method == "POST":
         form = ExpenseForm(request.POST)
         if form.is_valid():
+            messages.success(request, f'You have successfully added a new expense')
             form.save()
             return redirect('exp_page')
     form = ExpenseForm()
