@@ -18,14 +18,34 @@ body {
 
 .expense {
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: aquamarine;
-    width: 15%;
-    height: 100px;
+    width: 16%;
+    height: 200px;
     background-color: #ccc;
     margin: 5px;
     
 }
+.placeholder_container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px black;
+
+
+}
+
+.placeholder_expense {
+    text-align: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 16%;
+    height: 200px;
+    background-color: #ccc;
+    margin: 5px;
+
+}
+
 
 #home {
    
@@ -148,4 +168,13 @@ display:flex;
 
 .messages li{
     color:white;
+}
+
+#update_link {
+    background-color: #9c88ff;
+   
+}
+
+#edit_link {
+
 }

@@ -57,7 +57,25 @@
 
     </div>
     {% endif %}
+
     <a href="/add/">Add a new expense</a>
+
+    {% if not user.is_authenticated %} 
+        <div class = "placeholder_container">
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+            <div class= "placeholder_expense"></div>
+       </div>
+    {% endif %}
 
     <div class = "container">
     {% if user.is_authenticated %}   
@@ -72,10 +90,10 @@
            
             
             <p>{{expense.date_field}}</p>
-            <a href = "/update/{{ expense.id }}">Edit Expense</a>
-            <a href = "/delete/{{ expense.id }}">Delete Expense</a>
+            <a id ="update_link" href = "/update/{{ expense.id }}">Edit Expense</a>
+            <a id ="delete_link" href = "/delete/{{ expense.id }}">Delete Expense</a>
             
-            </div>
+        </div>
         
         {% endfor %}
     {% endif %}
