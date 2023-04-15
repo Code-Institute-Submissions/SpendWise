@@ -142,10 +142,6 @@ display:flex;
     color:antiquewhite
 }
 
-.social_media i a:hover {
-    color: blue;
-  }
-  
-  a:active {
-    color: green;
-  }
+.messages li{
+    color:white;
+}
