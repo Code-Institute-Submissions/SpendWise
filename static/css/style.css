@@ -92,10 +92,12 @@ display:flex;
 #money_container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 #total {
-    height:200px;
+    height:100px;
     width: 30%;
     background-color: lightcoral;
     text-align: center;
@@ -103,14 +105,14 @@ display:flex;
 
 }
 #budget {
-    height: 200px;
+    height: 100px;
     width: 30%;
     background-color: lightgreen;
     text-align: center;
 }
 
 #leftover {
-    height: 200px;
+    height: 100px;
     width: 30%;
     background-color: lightgoldenrodyellow;
     text-align: center;
