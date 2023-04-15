@@ -208,3 +208,20 @@ display:flex;
 #edit_link {
 
 }
+.typewiter{
+   
+}
+.type{
+    overflow: hidden;
+    border-right: .15em solid rgb(3, 3, 3);
+    white-space: nowrap;
+    font-size: 1.6rem;
+   
+    animation: typing 5s forwards;
+  }
+  
+  /* Define the typing animation */
+  @keyframes typing {
+    from { width: 0%}
+    to { width: 100% }
+  }
