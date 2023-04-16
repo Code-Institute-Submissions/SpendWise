@@ -25,9 +25,9 @@
     </header>
     <h1>add expense</h1>
 
-    <div id = "add_form_container">
+    <div class = "add_form_container">
 
-        <form  id = "add_form" method= "POST" action = "">
+        <form  class = "add_form" method= "POST" action = "">
             {% csrf_token %}
             {{form}}
             <button type="submit">Submit Expense</button>
