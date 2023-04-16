@@ -47,6 +47,7 @@ def update(request, expense_id):
     if request.method == "POST":
         form = ExpenseForm(request.POST, instance = expense)
         if form.is_valid():
+            messages.success(request, f'You have successfully eddited a new expense')
             form.save()
             return redirect('exp_page')
     
@@ -59,6 +60,7 @@ def update(request, expense_id):
 def delete(request, expense_id): 
     expense = get_object_or_404(Expense, id = expense_id)
     expense.delete()
+    messages.success(request, f'You have successfully  deleted a new expense')
     return redirect('exp_page')
 
 
