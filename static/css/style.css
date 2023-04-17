@@ -204,7 +204,7 @@ display:flex;
     color:antiquewhite
 }
 
-.messages li{
+#messages li{
     color:black;
 }
 
@@ -233,3 +233,7 @@ display:flex;
     from { width: 0%}
     to { width: 100% }
   }
+
+.hide {
+    display:none !important;
+}

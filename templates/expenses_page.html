@@ -30,9 +30,9 @@
     
 
     {% if messages %}
-        <ul class="messages">
+        <ul>
         {% for message in messages %}
-        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        <li id ="messages" {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
         {% endfor %}
        </ul>
     {% endif %}
@@ -142,7 +142,7 @@
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-    <script src = "/static/js"></script>
+    <script src = "/static/main.js"></script>
 
 
 
