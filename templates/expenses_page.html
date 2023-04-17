@@ -30,7 +30,7 @@
             </ul>   
         </nav>
     </header>
-    <h1>_</h1>
+    
     
 
     {% if messages %}
@@ -82,7 +82,7 @@
             <h1>Current Budget</h1>
             <h2 class="type" > $ {{leftover}}</h2>
            
-            {{last_object}}
+            
 
         </div>
 
@@ -111,12 +111,12 @@
     {% endif %}
     {% if user.is_authenticated %}   
 
-    <div class = "container">
+    <div   class = "container">
     
         {% for expense in expenses %}   
         
     
-        <div class= "expense">
+        <div id ="expense_div" class= "expense">
             
             <h2>{{expense.name}}</h2>
             
