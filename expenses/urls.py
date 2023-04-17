@@ -8,8 +8,9 @@ urlpatterns = [
     
     path('add/', login_required(views.add), name="add"),
     path('budget/', login_required(views.add_budget), name="budget"),
-    path('update/<expense_id>', views.update, name="update"),
-    path('delete/<expense_id>', views.delete, name="delete"),
+    path('update/<expense_id>', login_required(views.update), name="update"),
+    path('delete/<expense_id>', login_required(views.delete), name="delete"),
+    
 
    
 ]

@@ -81,6 +81,8 @@
         <div class="typewiter" id= "leftover">
             <h1>Current Budget</h1>
             <h2 class="type" > $ {{leftover}}</h2>
+           
+            {{last_object}}
 
         </div>
 
@@ -88,6 +90,8 @@
     {% endif %}
 
     <a href="/add/">Add a new expense</a>
+    <a href="/budget/">Set your max budget for 2023</a>
+
 
     {% if not user.is_authenticated %} 
         <div class = "placeholder_container">
