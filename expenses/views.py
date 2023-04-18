@@ -85,6 +85,7 @@ def add_budget(request):
         form = BudgetForm(request.POST)
         if form.is_valid():
             form.save()
+            messages.success(request, f'You have successfully added your new budget')
             return redirect('exp_page')
 
     

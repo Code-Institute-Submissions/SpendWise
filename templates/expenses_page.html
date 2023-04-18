@@ -41,6 +41,7 @@
        </ul>
     {% endif %}
     {% if not user.is_authenticated %}  
+   
 
     <div id = "placeholder_money_container">
         <div class="typewiter" id= "placeholder_budget">
@@ -62,9 +63,16 @@
 
     </div>
     {% endif %}
+
   
     
     {% if user.is_authenticated %}  
+    <div id = "btn_budget_container">
+        <a id ="btn_budget" href="/budget/">Set your max budget for 2023</a>
+
+
+    </div>
+    
 
     <div id = "money_container">
         <div class="typewiter"  id= "budget">
@@ -89,9 +97,8 @@
     </div>
     {% endif %}
 
-    <a href="/add/">Add a new expense</a>
-    <a href="/budget/">Set your max budget for 2023</a>
-
+    
+    
 
     {% if not user.is_authenticated %} 
         <div class = "placeholder_container">
@@ -110,6 +117,11 @@
        </div>
     {% endif %}
     {% if user.is_authenticated %}   
+    <div id = "btn_add_container">
+        <a id = "btn_add" href="/add/">Add a new expense</a>
+        
+    </div>
+
 
     <div   class = "container">
     
