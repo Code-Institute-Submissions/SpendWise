@@ -41,6 +41,12 @@
        </ul>
     {% endif %}
     {% if not user.is_authenticated %}  
+
+    <div id = "btn_budget_container">
+        <a  title="Add your 2023 budget, the total amount of your expenses will be subtracted from this budget" id ="btn_budget" href="/budget/">Set your max budget for 2023</a>
+       
+    </div>
+    
    
 
     <div id = "placeholder_money_container">
@@ -100,6 +106,11 @@
     
 
     {% if not user.is_authenticated %} 
+    <div id = "btn_add_container">
+        <a id = "btn_add" href="/add/">Add a new expense</a>
+        
+    </div>
+
         <div class = "placeholder_container">
             <div class= "placeholder_expense"></div>
             <div class= "placeholder_expense"></div>
