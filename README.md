@@ -4,7 +4,7 @@
 ------------------------------------
 ### put main image here
 
-Live site available [here](https://expensed.herokuapp.com/). 
+You can view the site here [here](https://.herokuapp.com/). 
 
 
 -----
@@ -45,7 +45,7 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 
 #### Mwirefromas
 ---
-
+1 for home page and 1 for expenses 
 *  
 
 ### The Sites Ideal User
@@ -74,3 +74,7 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 ## Features
 
 **Features planned:**
+
+
+## Technologies used
+

@@ -16,16 +16,17 @@ body {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    
    
 }
 
-.expense {
+#expense_div {
     text-align: center;
     justify-content: space-between;
-  
+    
     background-color: aquamarine;
     width: 16%;
-    height: 200px;
+    height: 100%;
     background-color: #ccc;
     margin: 5px;
    
@@ -33,8 +34,35 @@ body {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     
 }
+#expense_div h2 {
+    margin-top: 5%;
 
+}
+#expense_div p {
+    margin-top: 5%;
 
+}
+
+.expense_buttons {
+    margin-top: 5%;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    width:20%;
+    background-color: #0077cc;
+   
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 5%;
+
+}
+.expense_buttons:hover {
+    box-shadow: 0 3px 10px purple;
+
+}
 #expense_div:hover {
     box-shadow: 0 3px 10px purple;
     
@@ -60,7 +88,6 @@ body {
     border-radius: 25px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     
-   
 
 }
 .placeholder_expense:hover {
@@ -108,7 +135,7 @@ body {
     color:black;  
 }
 #menu a:hover {
-    background-color:#6EF9F5;
+    box-shadow: 0 3px 10px purple;
    
 }
 .add_form_container {
@@ -124,21 +151,64 @@ body {
 }
 
 #about_container {
-display:flex;
+    border:solid 2px black;
+    display:flex;
+    justify-content: space-evenly;
+    
+ 
+
 }
 #text_box {
-    width:50%;
+    padding: 5%;
+    width:45%;
     font-family: cursive;
-    
-    padding:5%;
+   
     color: black;
 
 }
-#image_container {
+#text_box h1 {
    
-  
-  
+
+}
+#text_box p {
+    margin-top: 5%;
+    
+
+}
+#text_box h2 {
+    margin-top: 5%;
+
+}
+#start {
+    margin-top: 5%;
+    list-style: none;
+   
+    
+}
+#start li {
+    margin-top: 1%;
+}
+
+.start_buttons {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    width:20%;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+    transition: all 0.3s ease-in-out;
+}
+.start_buttons:hover {
+    box-shadow: 0 3px 10px purple;
+    
+}
+
+#image_container {
     padding: 5%;
+    width:45%
 
 }
 #image_container img {

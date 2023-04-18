@@ -116,7 +116,7 @@
         {% for expense in expenses %}   
         
     
-        <div id ="expense_div" class= "expense">
+        <div id ="expense_div" >
             
             <h2>{{expense.name}}</h2>
             
@@ -124,8 +124,8 @@
            
             
             <p>{{expense.date_field}}</p>
-            <a id ="update_link" href = "/update/{{ expense.id }}">Edit Expense</a>
-            <a id ="delete_link" href = "/delete/{{ expense.id }}">Delete Expense</a>
+            <a class="expense_buttons" href = "/update/{{ expense.id }}">Edit</a>
+            <a class="expense_buttons" href = "/delete/{{ expense.id }}">Delete</a>
             
         </div>
         
