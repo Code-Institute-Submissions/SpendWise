@@ -26,15 +26,24 @@
                 {% endif %}
             </ul>   
         </nav>
-
-        <form  method= "POST" >
-            {% csrf_token %}
-            {{form}}
-    
-            <button type="submit">Update Item</button>
-    
-        </form>
     </header>
+
+       <div class="main_form_container">
+            <div class = "form_container">
+                <div class="form_des">
+                    <h2><strong>Edit Expense</strong></h2>>
+                </div>
+
+                <form class="forms"  method= "POST" >
+                    {% csrf_token %}
+                    {{form.as_p}}
+            
+                    <button class = "btn_submit" type="submit">Update Item</button>
+            
+                </form>
+            </div>
+        </div>
+    
     
     
     

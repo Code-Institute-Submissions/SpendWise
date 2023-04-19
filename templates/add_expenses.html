@@ -27,22 +27,21 @@
             </ul>   
         </nav>
     </header>
- 
 
-    <div class = "add_form_container">
-        <div class="form_title">
-            <h1>Add an expense</h1>
-        </div>
-
-      
-        <div>
-            <form  class = "add_form" method= "POST" action = "">
-                {% csrf_token %}
-                {{form}}
-                <button class= "btn_sumit" type="submit">Submit Expense</button>
-
+    <div class ="main_form_container">
+        
+        
+        <div class="form_container">
+            <div class = "form_des">
+                <h2>Add an expense</h2>
+            </div>
+            <form  class = "forms" method= "POST" action = "">
+                    {% csrf_token %}
+                    {{form.as_p}}
+                    <button class= "btn_submit" type="submit">Submit Expense</button>
             </form>
         </div>
+        
     </div>
 
 
