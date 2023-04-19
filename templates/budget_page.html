@@ -27,17 +27,23 @@
             </ul>   
         </nav>
     </header>
-    <h1>add budget</h1>
+    <div class="main_form_container">
+        <div class = "form_container">
+            <div class="form_des">
+                <h2><strong>Set the max budget</strong></h2>
+            </div>
 
-    <div id = "add_budget_container">
-
-        <form  id = "budget_form" method= "POST" action = "">
-            {% csrf_token %}
-            {{form}}
-            <button type="submit">Submit Expense</button>
-
-        </form>
+            <form  id = "budget_form" method= "POST" action = "">
+                {% csrf_token %}
+                {{form}}
+                <button class = "btn_submit" type="submit">Submit Expense</button>
+    
+            </form>
+        </div>
     </div>
+
+
+    
     
 </body>
 </html>
