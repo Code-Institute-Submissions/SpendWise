@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family:cursive;
     background-color: #ccc;
 
 }
@@ -156,19 +156,26 @@ body {
 }
 
 .btn_add{
-   
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
- 
     background-color: #33b249;
-   
     color: #fff;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
     transition: all 0.3s ease-in-out;
-    
+}
+.btn_budget {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+    transition: all 0.3s ease-in-out;
 }
 .btn_add:hover{
     box-shadow: 0 3px 10px purple;
@@ -295,43 +302,69 @@ body {
     
 }
 
-
-.main_buttons_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-
-}
 #money_container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+   
 }
+.main_buttons_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: solid 1px black;
+
+}
+
 #total {
     height:100px;
     flex:1.5;
     color:black;
-    background-color: ;
+    
     text-align: center;
 
+}
+#total h2 {
+    border: 2px solid black ;
+    background-color: lightcoral;
+}
+#total h3 {
+   
+    
 }
 #budget {
     height: 100px;
     flex:1.5;
     color: black;
-    background-color:;
+   
+    
     text-align: center;
+}
+#budget h2 {
+    border: 2px solid black;
+    background-color: lightgreen;
+
+}
+#budget h3 {
+  
 }
 
 #leftover {
     height: 100px;
     flex:1.5;
     color: black;
-    background-color:;
+   
     text-align: center;
-
+}
+#leftover h2 {
+    border: 2px solid black ;
+    background-color: lightblue;
+}
+#leftover h3 {
+   
+    
 }
 #placeholder_total {
     height:100px;
@@ -342,12 +375,28 @@ body {
 
 
 }
+#placeholder_total h2 {
+    border: 2px solid black ;
+    background-color: lightcoral;
+}
+#placeholder_total h3{
+   
+    
+}
 #placeholder_budget {
     height: 100px;
     flex:1.5;
     color: black;
-    background-color: ;
+    
     text-align: center;
+}
+#placeholder_budget h2 {
+    border: 2px solid black ;
+    background-color: lightgreen;
+}
+#placeholder_budget h2 {
+   
+    
 }
 
 #placeholder_leftover {
@@ -358,7 +407,14 @@ body {
     text-align: center;
 
 }
-
+#placeholder_leftover h2 {
+    border: 2px solid black ;
+    background-color: lightblue;
+}
+#placeholder_leftover h3 {
+   
+    
+}
 
 
 #budget_form {
@@ -386,8 +442,9 @@ body {
 .social_media i {
     font-size: 200%;
     margin: 1%;
+    color:#0077cc
 
-    color:black;
+    
 }
 
 #messages li{
