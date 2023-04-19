@@ -27,17 +27,46 @@
             </ul>   
         </nav>
     </header>
-    <h1>add expense</h1>
+ 
 
     <div class = "add_form_container">
+        <div class="form_title">
+            <h1>Add an expense</h1>
+        </div>
 
-        <form  class = "add_form" method= "POST" action = "">
-            {% csrf_token %}
-            {{form}}
-            <button type="submit">Submit Expense</button>
+      
+        <div>
+            <form  class = "add_form" method= "POST" action = "">
+                {% csrf_token %}
+                {{form}}
+                <button class= "btn_sumit" type="submit">Submit Expense</button>
 
-        </form>
+            </form>
+        </div>
     </div>
+
+
+    <footer>
+        <div class = "sm_container">
+        <ul class="social_media">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <script src = "/static/main.js"></script>
+
     
 </body>
 </html>
