@@ -142,14 +142,13 @@ body {
 }
 .btn_add_container {
     text-align: center;
-    display: flex;
+    flex:1.5
 
 }
 
 .btn_budget_container {
-    
-    flex: 2.5; 
-  
+
+    flex: 1.5; 
 
     text-align: center;
     
@@ -162,7 +161,7 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
-    width:20%;
+ 
     background-color: #33b249;
    
     color: #fff;
@@ -176,10 +175,6 @@ body {
 
 }
 
-#btn_budget_container {
-
-    text-align: center;
-}
 #btn_budget {
     margin-top: 2%;
     display: inline-block;
@@ -293,12 +288,20 @@ body {
     height:200px;
     
 }
-#money_container {
+
+
+.main_buttons_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
 
+}
+#money_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 #total {
     height:100px;
@@ -306,7 +309,6 @@ body {
     color:black;
     background-color: ;
     text-align: center;
-
 
 }
 #budget {
@@ -323,13 +325,6 @@ body {
     color: black;
     background-color:;
     text-align: center;
-
-}
-#placeholder_money_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
 
 }
 #placeholder_total {
@@ -359,9 +354,7 @@ body {
 }
 
 
-#add_budget_container{
 
-}
 #budget_form {
     display: flex;
     flex-direction: column;
