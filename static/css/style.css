@@ -25,9 +25,9 @@ body {
     justify-content: space-evenly;
     width:15%;
     margin: 2%;
-    background-color: aquamarine;
+  
     height: 100%;
-    background-color: #9c88ff;
+    background-color: lightgoldenrodyellow;
     border: solid 1px #0077cc;
     border-radius: 25px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -75,6 +75,7 @@ body {
     margin: 5%;
     margin-top:0px;
     border:solid 4px black;
+    background-color: lightgoldenrodyellow;
 
     
 
@@ -84,9 +85,9 @@ body {
     justify-content: space-evenly;
     width:15%;
     margin: 2%;
-    background-color: aquamarine;
+    background-color: #9c88ff;
     height: 150px;
-    background-color: #ccc;
+ 
     border: solid 1px #0077cc;
     border-radius: 25px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -451,8 +452,6 @@ body {
 }
 .sm_container {
     background-color: #9c88ff;
-  
-   
     
 }
 
@@ -467,7 +466,7 @@ body {
 .social_media i {
     font-size: 200%;
     margin: 1%;
-    color:#0077cc
+    color:black;
 
     
 }
