@@ -28,20 +28,20 @@
         </nav>
     </header>
 
-       <div class="main_form_container">
-            <div class = "form_container">
-                <div class="form_des">
-                    <h2><strong>Edit Expense</strong></h2>
-                </div>
+       
+        <div class = "form_container">
+              
+            <h2>Edit Expense</h2>
+           
 
-                <form class="forms"  method= "POST" >
+            <form class="all_forms"  method= "POST" >
                     {% csrf_token %}
                     {{form.as_p}}
             
-                    <button class = "btn_submit" type="submit">Update Item</button>
+            <button class = "btn_submit" type="submit">Update Item</button>
             
-                </form>
-            </div>
+            </form>
+      
         </div>
 
         <footer>

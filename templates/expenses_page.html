@@ -114,15 +114,17 @@
 
 
     <div   class = "container">
+        
     
         {% for expense in expenses %}   
+        
         
     
         <div id ="expense_div" >
             
             <h2>{{expense.name}}</h2>
             
-            <p>$  {{expense.number}}</p>
+            <h3>$  {{expense.number}}</h3>
            
             
             <p>{{expense.date_field}}</p>

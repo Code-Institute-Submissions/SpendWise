@@ -17,8 +17,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 5%;
+    min-height: 300px;
     margin-top: 0px;
     border:solid 4px black;
+
+   
+  
+
+
 }
 
 #expense_div {
@@ -26,29 +32,38 @@ body {
     width:15%;
     margin: 2%;
   
-    height: 100%;
-    background-color: lightgoldenrodyellow;
-    border: solid 1px #0077cc;
+    
+  
+    border: solid 2px black;
     border-radius: 25px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     
 }
 #expense_div h2 {
     margin-top: 5%;
+    border-bottom: black solid 2px;
+   
+
+}
+#expense_div h3 {
+    margin-top: 5%;
 
 }
 #expense_div p {
+    font-style: italic;
     margin-top: 5%;
+    font-size: small;
 
 }
 
 .expense_buttons {
+    font-size: small;
     margin-top: 5%;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 3%;
     text-decoration: none;
     text-align: center;
-    width:20%;
+    width:fit-content;
     background-color: #0077cc;
    
     color: #fff;
@@ -75,9 +90,6 @@ body {
     margin: 5%;
     margin-top:0px;
     border:solid 4px black;
-    background-color: lightgoldenrodyellow;
-
-    
 
 }
 
@@ -109,10 +121,13 @@ body {
 }
 
 #home { 
-    background-color: #9c88ff;
-    border-bottom-left-radius: 150px;
+    background-color: #9383df;
+    border-bottom-left-radius:  150px;
     border-bottom-right-radius: 150px; 
+   
     margin-bottom: 20px;
+    border:solid black 2px;
+
 }
 
 #main {  
@@ -122,7 +137,7 @@ body {
     letter-spacing: 4px;
     text-align: center;
     font-size: 35px;
-    color:black;
+   
     
 }
 #menu  {
@@ -138,17 +153,15 @@ body {
 }
 .btn_add_container {
     text-align: center;
-    flex:1.5
+    flex:1.5;
+   
 
 }
 
 .btn_budget_container {
 
     flex: 1.5; 
-
     text-align: center;
-    
-    
 }
 
 .btn_add{
@@ -156,8 +169,8 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
-    background-color: #33b249;
-    color: #fff;
+    background-color: purple;
+    color:#fff;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
     transition: all 0.3s ease-in-out;
@@ -177,24 +190,7 @@ body {
     box-shadow: 0 3px 10px purple;
 
 }
-
-#btn_budget {
-    margin-top: 2%;
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-align: center;
-    width:20%;
-    background-color: #0077cc;
-   
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
-    transition: all 0.3s ease-in-out;
-    margin-bottom: 5%;
-
-}
-#btn_budget:hover {
+.btn_budget:hover {
     box-shadow: 0 3px 10px purple;
 }
 #menu a {
@@ -328,7 +324,7 @@ body {
 #image_container img {
    
     width:80%;
-    border: 2px solid #0077cc;
+    border: 2px solid black;
     border-radius: 60px; 
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
 }
@@ -343,6 +339,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+
+    
+   
+
    
 }
 .main_buttons_container {
@@ -456,12 +456,15 @@ body {
 
 .sm_container {
     border-top: 2px solid black;
+    background-color: #7969ca;;
    
     
 }
 
 .social_media {
     text-align: center;
+   
+    padding: 2%;
 }
 
 .social_media > li {
@@ -469,9 +472,11 @@ body {
 }
 
 .social_media i {
+    margin-top:5%;
     font-size: 200%;
     margin: 1%;
-    color:black;
+    color: black;
+
 
     
 }
