@@ -122,3 +122,22 @@ I deployed my project to Herou using the following steps:
 -  Make a new file call Procfile. Add the following code: web: gunicorn ProjectName.wsgi
 - Add, commit and push all changes to Github.
 - Navigate to the deployment tab in Heroku. Link your github repo to Heroku and deploy the branch manually. View the build log for any errors.It will dipslay a link to the live site.
+
+
+### Forking the project
+
+ 
+-Sign/regester in to Github and go to my repository at https://github.com/Thomas-Longworth/Expense-tracker .
+-Navagage the Fork button at the top right of the page and select it.
+-The fork  is now created and copied to your repositories.
+
+
+### Cloning the project
+  
+- Sign/regester in to Github and go to my repository at https://github.com/Thomas-Longworth/Expense-tracker .
+- Select the green ‘code’ button.
+- Choose which clone option you want(HTTPS, SSH or Github CLI). 
+- Copy the url.
+- Open git bash
+- Type ‘git clone’ and then paste the URL you copied. Press Enter.
+
