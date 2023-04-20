@@ -108,10 +108,7 @@ body {
    
 }
 
-#home {
-    
-    
-    
+#home { 
     background-color: #9c88ff;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px; 
@@ -129,8 +126,6 @@ body {
     
 }
 #menu  {
-    
-
     text-align: center;
     padding-top:20px; 
     list-style:circle;
@@ -211,33 +206,46 @@ body {
     box-shadow: 0 3px 10px purple;
    
 }
-.main_form_container {
-    display: flex;
-    justify-content: center;
+
     
-    
-}
+
 .form_des{
     text-align: center;
    
     
 }
 .form_container {
-    border: solid 2px black;
+   
+    
 }
+.form_container h2 {
+    
+    text-align: center;
+}
+.form_container p {
+    text-align: center;
 
-.forms {
-
+  
+}
+.all_forms {
+   
+    
+   
     margin:20px;
     font-size: 15px;
     text-align: center;
 
-    border: solid 1px black;
+   
+}
+.all_forms p {
+    margin-top: 1%;
+   
 }
 
 .btn_submit {
     display: inline-block;
     padding: 10px 20px;
+    margin-top: 1%;
     margin-bottom:5px;
     text-decoration: none;
     text-align: center;
@@ -247,6 +255,7 @@ body {
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
     transition: all 0.3s ease-in-out;
+    
 
 }
 #sign_out {
@@ -255,9 +264,10 @@ body {
 }
 
 #about_container {
-    border:solid 2px black;
+   
     display:flex;
     justify-content: space-evenly;
+   
     
  
 
@@ -340,7 +350,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border: solid 1px black;
+  
 
 }
 
@@ -443,15 +453,10 @@ body {
 }
 
 
-#budget_form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid 1px black;
 
-}
 .sm_container {
-    background-color: #9c88ff;
+    border-top: 2px solid black;
+   
     
 }
 

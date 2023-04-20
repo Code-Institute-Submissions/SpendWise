@@ -27,20 +27,41 @@
             </ul>   
         </nav>
     </header>
-    <div class="main_form_container">
-        <div class = "form_container">
-            <div class="form_des">
-                <h2><strong>Set the max budget</strong></h2>
-            </div>
 
-            <form  id = "budget_form" method= "POST" action = "">
+    <div class="form_container">  
+        <h2>Set your max budget</h2>
+        <form  class= "all_forms" method= "POST" action = "">
                 {% csrf_token %}
-                {{form}}
-                <button class = "btn_submit" type="submit">Submit Expense</button>
-    
-            </form>
-        </div>
+                {{form.as_p}}
+                <button class = "btn_submit" type="submit">Submit Budget</button>
+        </form>
     </div>
+
+    
+    <footer>
+        <div class = "sm_container">
+            <ul class="social_media">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <script src = "/static/main.js"></script>
+
+    
 
 
     

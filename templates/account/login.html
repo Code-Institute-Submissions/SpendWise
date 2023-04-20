@@ -9,16 +9,16 @@
 
 
 
-<div class="main_form_container">
-  <div class="form-container">
-    <div class="form_des">
-      <h1>{% trans "Sign In" %}</h1>
+
+  <div class="form_container">
+
+      <h2>{% trans "Sign In" %}</h2>
       <p>{% blocktrans %}If you have not created an account yet, then please
         <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
 
-    </div>
-    <div class = "forms">
-      <form class="login" method="POST" action="{% url 'account_login' %}">
+ 
+   
+        <form class="all_forms" method="POST" action="{% url 'account_login' %}">
         {% csrf_token %}
         {{ form.as_p }}
         {% if redirect_field_value %}
@@ -26,8 +26,8 @@
         {% endif %}
             
         <button class = "btn_submit" class="primaryAction" type="submit">{% trans "Sign In" %}</button>
-      </form>
+    
     </div>
-</div>
+
 
 {% endblock %}

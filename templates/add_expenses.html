@@ -27,22 +27,17 @@
             </ul>   
         </nav>
     </header>
-
-    <div class ="main_form_container">
         
         
-        <div class="form_container">
-            <div class = "form_des">
-                <h2>Add an expense</h2>
-            </div>
-            <form  class = "forms" method= "POST" action = "">
+        <div class="form_container"> 
+            <h2>Add an expense</h2>  
+            <form  class = "all_forms" method= "POST" action = "">
                     {% csrf_token %}
                     {{form.as_p}}
                     <button class= "btn_submit" type="submit">Submit Expense</button>
             </form>
         </div>
         
-    </div>
 
 
     <footer>

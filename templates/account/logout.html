@@ -6,19 +6,45 @@
 
 {% block content %}
 
-<div id="sign_out">
-  <h1>{% trans "Sign Out" %}</h1>
+<div class = "form_container">
+    <h2>{% trans "Sign Out" %}</h2>
+  
 
-  <p>{% trans 'Are you sure you want to sign out?' %}</p>
+    <p>{% trans 'Are you sure you want to sign out?' %}</p>
+  
+    <form class = "all_forms" method="post" action="{% url 'account_logout' %}">
+      {% csrf_token %}
+      {% if redirect_field_value %}
+      <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+      {% endif %}
+      <button class = "btn_submit" type="submit">{% trans 'Sign Out' %}</button>
 
-  <form method="post" action="{% url 'account_logout' %}">
-    {% csrf_token %}
-    {% if redirect_field_value %}
-    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
-    {% endif %}
-    <button class = "btn_submit" type="submit">{% trans 'Sign Out' %}</button>
-  </form>
+    </form>
+    
+ 
 </div>
+
+
+<footer>
+  <div class = "sm_container">
+      <ul class="social_media">
+          <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+              <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
+          </li>
+          <li>
+              <a href="https://youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
+          </li>
+          <li>
+              <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+          </li>
+      </ul>
+  </div>
+</footer>
+<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+<script src = "/static/main.js"></script>
 
 
 {% endblock %}

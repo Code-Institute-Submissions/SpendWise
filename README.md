@@ -127,9 +127,9 @@ I deployed my project to Herou using the following steps:
 ### Forking the project
 
  
--Sign/regester in to Github and go to my repository at https://github.com/Thomas-Longworth/Expense-tracker .
--Navagage the Fork button at the top right of the page and select it.
--The fork  is now created and copied to your repositories.
+- Sign/regester in to Github and go to my repository at https://github.com/Thomas-Longworth/Expense-tracker .
+- Navagage the Fork button at the top right of the page and select it.
+- The fork is now created and copied to your repositories.
 
 
 ### Cloning the project
