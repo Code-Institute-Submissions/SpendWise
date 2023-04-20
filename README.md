@@ -81,7 +81,7 @@ I have these user stories that were completed for the project
 	*  See expenses - As a site user I can see my expenses that were added so that track my spending
 	*  Add expenses - As a site user I can see my expenses that were added so that I keep track of all expenses
 	*  Update expenses - As a site user I can edit an expense so that I make changes to my expenses
-	*  As a site user I can delete an expense so that I delete an expense that I dont want
+	*  Delete expenses - As a site user I can delete an expense so that I delete an expense that I dont want
 
 
 
@@ -93,3 +93,32 @@ I have these user stories that were completed for the project
 
 ## Technologies used
 
+## Deployment
+
+The site was deployed via Heroku, and the live link can be found here - [Expensed](https://dashboard.heroku.com/apps/expensed)
+
+### Project Deployment
+
+I deployed my project to Herou using the following steps:
+
+1 - Login to [Heroku](https://www.heroku.com/).
+2 - On the Heroku website, navagate to "Create New App".
+3 - Name the project.
+4 - This will create the app within Heroku and bring you to the deploy tab. From the submenu at the top, navigate to the resources tab.
+5 -  Navagage to the Resources Tab and add 'Heroku Postgres' to the Add ons.
+6 - Go to the settings tab, and copy the DATABASE_URL to the Config vars.
+7 - Create an env.py file in the djagno repository. Import the os library and set the environment variable for the DATABASE_URL pasting in the address copied from Heroku. It should look like this: os.environ["DATABASE_URL"] = "Pasted URL".
+8 - In the env.py file, create a secret key. It should look like this: os.environ["SECRET_KEY"] = " Your Secret key ".
+9 - Copy your secret key and paste it into a Heroku config var. Use SECRET_KEY as the var key.
+10 - Copy and paste the following into your projects settings.py file : from pathlib import Path, import os, import dj_database_url,if os,path.isfile("env.py"):import env.
+11 - Remove djangos insecure key and replace it with: SECRET_KEY = os.environ.get('Your secret key').
+12 - Comment out the database section the setting.py file. Replace it with: DATABASES = { 'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))} .
+13 - Add DISABLE_COLLECTSTATIC to Heroku Config Vars. Set the value to 1.
+14 - Link the file to the templates directory in Heroku. Under the BASE_DIR line, insert the following  { TEMPLATES_DIR = os.path.join(BASE_DIR,'templates') }.
+15 - Change the templates directory to TEMPLATES_DIR. It should look like this 'DIRS': [TEMPLATES_DIR].
+16 - Add Heroku Hostname to ALLOWED_HOSTS. It should look like this:  ALLOWED_HOSTS =["ProjectName.herokuapp.com", "localhost"].
+17 - Create 3 new folders on top level directory: media, static, templates.
+18 - In the Settings.py file - add the STATIC files settings - storagepath, the url, directory path, root path, media url and default file storage path.
+19 -  Make a new file call Procfile. Add the following code: web: gunicorn ProjectName.wsgi
+20 - Add, commit and push all changes to Github.
+21 - Navigate to the deployment tab in Heroku. Link your github repo to Heroku and deploy the branch manually. View the build log for any errors.It will dipslay a link to the live site.
