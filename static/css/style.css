@@ -26,13 +26,18 @@ body {
     text-align: center;
     margin-bottom:1%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 1%;
+    margin-left: 5%;
 }
+
 #expenses_title {
     text-align: center;
     margin-bottom:1%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 .expense_div {
@@ -165,26 +170,52 @@ body {
     flex: 1.5; 
     text-align: center;
 }
+#budget_title {
+    text-align: center;
+    margin-bottom:1%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1%;
+    margin-left: 5%;
+}
 
+.title {
+    
+    margin-bottom:1%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 4.5%;
+}
 .btn_add{
+    margin-top:1.5%;
+    color:black;
+   
+    
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
-    background-color: purple;
-    color:#fff;
+    background-color: #0077cc;
+    border:solid 2px black;
+   
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
     transition: all 0.3s ease-in-out;
 }
 .btn_budget {
-    display: inline-block;
+    
+    
+
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
     background-color: purple;
     color: #fff;
     border-radius: 5px;
+    border:solid 2px black;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
     transition: all 0.3s ease-in-out;
 }
@@ -279,17 +310,19 @@ body {
 
 }
 #text_box h1 {
+    font-size: 5vh;
    
 
 }
 #text_box p {
     margin-top: 5%;
-    
+    font-size: 2.5vh;
 
 }
 #text_box h2 {
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 2.5vh;
 
 }
 #start {
@@ -403,7 +436,7 @@ body {
 
 
 .sm_container {
-    border-top: 2px solid black;
+    border: 2px solid black;
     background-color: #7969ca;;
    
     
