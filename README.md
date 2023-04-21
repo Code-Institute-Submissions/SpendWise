@@ -93,6 +93,9 @@ I have these user stories that were completed for the project
 
 ## Technologies used
 
+
+![alt text](/static/css/pack.JPG)
+
 ## Deployment
 
 The site was deployed via Heroku, and the live link can be found here - [Expensed](https://dashboard.heroku.com/apps/expensed)
@@ -141,3 +144,8 @@ I deployed my project to Herou using the following steps:
 - Open git bash
 - Type ‘git clone’ and then paste the URL you copied. Press Enter.
 
+|
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+-   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
