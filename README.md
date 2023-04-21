@@ -93,7 +93,14 @@ I have these user stories that were completed for the project
 
 ## Technologies used
 
+### **Languages Used**
 
+-   HTML5
+-   CSS3
+-   Javascript
+-   Python
+
+### Packages used
 ![alt text](/static/css/pack.JPG)
 
 ## Deployment
