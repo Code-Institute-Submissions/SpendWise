@@ -42,23 +42,27 @@
         {% endfor %}
        </ul>
     {% endif %}
+
+
+    <div id = "budget_title">
+        <h1>Budget</h1>
+      
+        <a  title="Add your 2023 budget, the total amount of your expenses will be subtracted from this budget" class ="btn_budget" href="/budget/">Set your max budget</a>
+
+        
+    </div>
     {% if user.is_authenticated %}  
     <div class="main_buttons_container">
-        <div class= "btn_add_container">
-            <a class = "btn_add" href="/add/">Add a new expense</a>
-        </div>   
-        <div class= "btn_budget_container">
-            <a  title="Add your 2023 budget, the total amount of your expenses will be subtracted from this budget" class ="btn_budget" href="/budget/">Set your max budget</a>
-        </div>
-        <div class="typewiter"  id= "budget">
+       
+        <div class="typewiter budget"  >
             <h2 >Initial Budget</h2>
             <h3 class="type" > $  {{budget_total}} </h3>
         </div>
-        <div class="typewiter"  id= "total">
+        <div class="typewiter total" >
             <h2>Total Expenses</h2>
             <h3 class="type" > $ {{total}}</h3>
         </div>
-        <div class="typewiter" id= "leftover">
+        <div class="typewiter leftover" >
             <h2>Current Budget</h2>
             <h3 class="type" > $ {{leftover}}</h3>
         </div>
@@ -67,21 +71,16 @@
     {% if not user.is_authenticated %}  
     <div class = "main_buttons_container">
             
-        <div class= "btn_add_container">
-            <a class = "btn_add" href="/add/">Add a new expense</a>
-        </div>   
-        <div class= "btn_budget_container">
-            <a  title="Add your 2023 budget, the total amount of your expenses will be subtracted from this budget" class ="btn_budget" href="/budget/">Set your max budget</a>
-        </div>
-        <div class="typewiter" id= "placeholder_budget">
+       
+        <div class="typewite budget">
             <h2 >Initial Budget</h2>
             <h3 class="type" > $  </h3>
         </div>
-        <div class="typewiter" id= "placeholder_total">
+        <div class="typewiter total">
             <h2>Total Expenses</h2>
             <h3 class="type" > $ </h3>
         </div>
-        <div class="typewiter"  id= "placeholder_leftover">
+        <div class="typewiter leftover"  class="leftover">
             <h2>Current Budget</h2>
             <h3 class="type" > $ </h3>
         </div>
@@ -92,21 +91,21 @@
 
     
     
-
+    <div id = "expenses_title">
+        <h1>Expenses</h1>     
+        <a class = "btn_add" href="/add/">Add a new expense</a>
+    
+    </div>
     {% if not user.is_authenticated %} 
    
-
-        <div class = "placeholder_container">
+        <div class = "container">
+           
             <div class= "placeholder_expense"></div>
             <div class= "placeholder_expense"></div>
             <div class= "placeholder_expense"></div>
             <div class= "placeholder_expense"></div>
             <div class= "placeholder_expense"></div>
-            <div class= "placeholder_expense"></div>
-            <div class= "placeholder_expense"></div>
-            <div class= "placeholder_expense"></div>
-            <div class= "placeholder_expense"></div>
-            <div class= "placeholder_expense"></div>
+            
        </div>
     {% endif %}
     {% if user.is_authenticated %}   
@@ -120,7 +119,7 @@
         
         
     
-        <div id ="expense_div" >
+        <div class="expense_div" >
             
             <h2>{{expense.name}}</h2>
             

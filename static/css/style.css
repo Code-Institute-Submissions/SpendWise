@@ -17,42 +17,50 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 5%;
-    min-height: 300px;
+    min-height: 250px;
     margin-top: 0px;
     border:solid 4px black;
 
-   
-  
-
-
+}
+#budget_title {
+    text-align: center;
+    margin-bottom:1%;
+    display: flex;
+    justify-content: center;
+}
+#expenses_title {
+    text-align: center;
+    margin-bottom:1%;
+    display: flex;
+    justify-content: center;
 }
 
-#expense_div {
+.expense_div {
     justify-content: space-evenly;
     width:15%;
     margin: 2%;
-  
-    
+    max-height: 175px;
   
     border: solid 2px black;
     border-radius: 25px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     
 }
-#expense_div h2 {
+.expense_div h2 {
     margin-top: 5%;
     border-bottom: black solid 2px;
+    font-size: 1.5vw;
    
-
 }
-#expense_div h3 {
+.expense_div h3 {
     margin-top: 5%;
+    font-size: 1.2vw;
 
 }
-#expense_div p {
+.expense_div p {
     font-style: italic;
     margin-top: 5%;
-    font-size: small;
+    font-size: 1vw;
 
 }
 
@@ -83,13 +91,7 @@ body {
 }
 .placeholder_container {
 
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5%;
-    margin-top:0px;
-    border:solid 4px black;
+  
 
 }
 
@@ -97,17 +99,17 @@ body {
     justify-content: space-evenly;
     width:15%;
     margin: 2%;
-    background-color: #9c88ff;
-    height: 150px;
- 
-    border: solid 1px #0077cc;
+    min-height: 150px;
+
+  
+    border: solid 2px black;
     border-radius: 25px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-
-
+    
+}
    
 
-}
+
 .placeholder_expense:hover {
     box-shadow: 0 3px 10px purple;
     
@@ -287,16 +289,19 @@ body {
 }
 #text_box h2 {
     margin-top: 5%;
+    margin-bottom: 5%;
 
 }
 #start {
-    margin-top: 5%;
+   
     list-style: none;
+    display: inline;
    
     
 }
 #start li {
-    margin-top: 1%;
+ 
+    display: inline;
 }
 
 .start_buttons {
@@ -340,9 +345,6 @@ body {
     align-items: center;
     flex-direction: row;
 
-    
-   
-
    
 }
 .main_buttons_container {
@@ -350,108 +352,54 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-  
-
-}
-
-#total {
-    height:100px;
-    flex:1.5;
-    color:black;
     
-    text-align: center;
-
-}
-#total h2 {
-    border: 2px solid black ;
-    background-color: lightcoral;
-}
-#total h3 {
-   
-    
-}
-#budget {
-    height: 100px;
-    flex:1.5;
-    color: black;
-   
-    
-    text-align: center;
-}
-#budget h2 {
-    border: 2px solid black;
-    background-color: lightgreen;
-
-}
-#budget h3 {
   
 }
-
-#leftover {
-    height: 100px;
-    flex:1.5;
-    color: black;
+.total {
+    width:30%;
    
-    text-align: center;
-}
-#leftover h2 {
-    border: 2px solid black ;
-    background-color: lightblue;
-}
-#leftover h3 {
-   
-    
-}
-#placeholder_total {
-    height:100px;
-    flex:1.5;
     color:black;
-    background-color: ;
-    text-align: center;
-
-
-}
-#placeholder_total h2 {
-    border: 2px solid black ;
     background-color: lightcoral;
-}
-#placeholder_total h3{
-   
-    
-}
-#placeholder_budget {
-    height: 100px;
-    flex:1.5;
-    color: black;
-    
+    border:solid 2px black;
     text-align: center;
+
 }
-#placeholder_budget h2 {
-    border: 2px solid black ;
+.total h2 {
+    font-size:1.5vw;
+}
+.total h3 {
+    font-size:1.5vw;
+  
+}
+.budget {
+    width:30%;
+    color:black;
     background-color: lightgreen;
-}
-#placeholder_budget h2 {
-   
-    
-}
-
-#placeholder_leftover {
-    height: 100px;
-    flex:1.5;
-    color: black;
-    background-color:;
+    border:solid 2px black;
     text-align: center;
-
 }
-#placeholder_leftover h2 {
-    border: 2px solid black ;
+.budget h2 {
+    font-size: 1.5vw;
+}
+.budget h3 {
+    font-size:1.5vw;
+}
+
+.leftover {
+    width:30%;
+    text-align: center; 
+    color:black;
     background-color: lightblue;
+    border:solid 2px black;
+    text-align: center;
 }
-#placeholder_leftover h3 {
-   
-    
+.leftover h2 {
+    font-size: 1.5vw;
+  
 }
-
+.leftover h3 {
+    font-size: 1.5vw;
+}
 
 
 .sm_container {
