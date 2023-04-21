@@ -90,15 +90,27 @@ I have these user stories that were completed for the project
 
 **Features planned:**
 
+### User Register
+### User Login 
+### User Logout
+### Budget calculator
+### Epxenses CRUD
+
 
 ## Technologies used
 
-### **Languages Used**
 
--   HTML5
--   CSS3
--   Javascript
--   Python
+- HTML5: Usedfor the structure of the website.
+
+- CSS: To style the website
+
+- JavaScript: Used to add interactiviy to website.
+
+- Python: Used to program django.
+
+- Django: This was the main framework for the website..
+
+- ElephantSQL: Used to host PostgreSQL database.
 
 ### Packages used
 ![alt text](/static/css/pack.JPG)
