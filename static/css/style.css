@@ -17,6 +17,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 5%;
+    
+    margin-top: 0px;
+    border:solid 3px black;
+
+}
+.place_container {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
     min-height: 250px;
     margin-top: 0px;
     border:solid 3px black;
@@ -47,6 +58,7 @@ body {
     justify-content: space-evenly;
     width:15%;
     margin: 2%;
+    height:fit-content;
     max-height: 175px;
     background-color: lightcyan;
   
@@ -521,11 +533,17 @@ body {
 
     .expense_div {
         width:25%;
-        height: 3px;
+       
+       
+       
     }
 }
 
 @media screen and (max-width: 750px) {
+    .container {
+        height: fit-content;
+        min-height: 0px;
+    }
     
     body{
        
@@ -539,6 +557,7 @@ body {
     }
     .expense_div {
         width:30%;
+       
         
         
         
