@@ -30,6 +30,9 @@ body {
     margin-top: 1%;
     margin-left: 5%;
 }
+.title_h1 {
+    font-size:2vw;
+}
 
 #expenses_title {
     text-align: center;
@@ -146,7 +149,7 @@ body {
   
     letter-spacing: 4px;
     text-align: center;
-    font-size: 35px;
+    font-size: 3vw;
    
     
 }
@@ -157,6 +160,7 @@ body {
     padding-bottom: 15px;
 }
 #menu li {
+    font-size: 1.5vw;
     padding-left:15px;
     display:inline;  
    
@@ -317,19 +321,17 @@ body {
 
 }
 #text_box h1 {
-    font-size: 5vh;
-   
-
+    font-size: 3vw;
 }
 #text_box p {
     margin-top: 5%;
-    font-size: 2.5vh;
+    font-size: 1vw;
 
 }
 #text_box h2 {
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 3vh;
+    font-size: 1.5vw;
 
 }
 #start {
@@ -346,10 +348,12 @@ body {
 
 .start_buttons {
     display: inline-block;
+    font-size: 1vw;
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
     width:20%;
+    border: solid 1px black;
     background-color: #0077cc;
     color: #fff;
     border-radius: 5px;
