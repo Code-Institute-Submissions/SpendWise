@@ -134,30 +134,24 @@ body {
 }
 
 #home { 
+    height:fit-content;
     background-color: #9383df;
     border-bottom-left-radius:  150px;
-    border-bottom-right-radius: 150px; 
-   
+    border-bottom-right-radius: 150px;  
     margin-bottom: 20px;
     border:solid black 2px;
-
 }
-
 #main {  
- 
     text-align: center;
-  
     letter-spacing: 4px;
     text-align: center;
     font-size: 3vw;
-   
-    
 }
 #menu  {
     text-align: center;
-    padding-top:20px; 
+    padding-top:5px; 
     list-style:circle;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 #menu li {
     font-size: 1.5vw;
@@ -349,7 +343,9 @@ body {
 .start_buttons {
     display: inline-block;
     font-size: 1vw;
-    padding: 10px 20px;
+    padding: 7.5px 15px;
+    height:fit-content;
+    
     text-decoration: none;
     text-align: center;
     width:20%;
@@ -450,15 +446,14 @@ body {
 
 .sm_container {
     border: 2px solid black;
-    background-color: #7969ca;;
+    background-color: #7969ca;
+    height: fit-content;
    
-    
 }
-
 .social_media {
-    text-align: center;
-   
-    padding: 2%;
+    text-align: center;  
+    padding:1%;
+  
 }
 
 .social_media > li {
@@ -467,7 +462,7 @@ body {
 
 .social_media i {
     margin-top:5%;
-    font-size: 200%;
+    font-size: 2vw;
     margin: 1%;
     color: black;
 
@@ -507,4 +502,25 @@ body {
 
 .hide {
     display:none !important;
+}
+
+
+
+@media screen and (max-width: 1350px) {
+    body {
+        background-color: red;
+      
+    }
+
+    #info-container {
+      
+    }
+}
+
+@media screen and (max-width: 750px) {
+   
+    
+    body{
+       background-color: blue;
+    }
 }
