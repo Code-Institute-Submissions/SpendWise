@@ -3,7 +3,7 @@
 
 ### User Story Testing
 
-#### Epic 1: User Register
+### Epic 1: User Register
 -----------
 
 ### Sign-up
@@ -32,7 +32,7 @@ As a site user I can logout of my account so that I can stop using website featu
 ### All tests passed
 
 ----------
-#### Epic 1: User Register
+### Epic 1: User Register
 --------
 
 ### See expenses

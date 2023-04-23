@@ -9,6 +9,4 @@ urlpatterns = [
     path('budget/', login_required(views.add_budget), name="budget"),
     path('update/<expense_id>', login_required(views.update), name="update"),
     path('delete/<expense_id>', login_required(views.delete), name="delete"),
-    
 ]
- 
