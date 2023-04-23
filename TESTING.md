@@ -66,3 +66,55 @@ As a site user I can delete an expense so that I delete an expense that I dont w
 
 ### All tests passed
 -----------------------
+
+## Validator testing
+
+## Python pep 8
+-----------------
+
+
+
+### views.py 
+- Test passed
+![alt text](/static/css/images/viewspep8.JPG)
+
+---------------------
+
+### models.py 
+- I left these errors as they dont affect readability
+![alt text](/static/css/images/modelspep8.JPG)
+
+---------------------
+
+### urls.py (app)
+- Test passed
+![alt text](/static/css/images/eurlspep8.JPG)
+
+---------------------
+### urls.py (project)
+- Test passed
+![alt text](/static/css/images/urlspep8.JPG)
+
+---------------------
+
+### forms.py 
+- Test passed
+![alt text](/static/css/images/formspep8.JPG)
+
+---------------------
+
+### settings.py 
+- I left these errors as they dont affect readability
+![alt text](/static/css/images/settingspep8.JPG)
+
+---------------------
+
+
+## Jshint
+
+### settings.py 
+- Test passed
+![alt text](/static/css/images/jsfile.JPG)
+
+---------------------
+
