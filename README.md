@@ -79,7 +79,7 @@ I have these user stories that were completed for the project
 
 - Epic 2: Expenses CRUD
 	*  See expenses - As a site user I can see my expenses that were added so that track my spending
-	*  Add expenses - As a site user I can see my expenses that were added so that I keep track of all expenses
+	*  Add expenses - As a site user I add new expenses so that I can keep track of all expenses
 	*  Update expenses - As a site user I can edit an expense so that I make changes to my expenses
 	*  Delete expenses - As a site user I can delete an expense so that I delete an expense that I dont want
 
