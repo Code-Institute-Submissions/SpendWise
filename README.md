@@ -67,7 +67,7 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 ### User Stories
 
 
-
+-----------------------------------------------------------------
 ### User Stories
 
 I have these user stories that were completed for the project
