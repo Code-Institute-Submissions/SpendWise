@@ -112,9 +112,39 @@ As a site user I can delete an expense so that I delete an expense that I dont w
 
 ## Jshint
 
+-------------
+
 ### settings.py 
 - Test passed
 ![alt text](/static/css/images/jsfile.JPG)
+
+---------------------
+
+
+
+
+## WC3 HTML Validatior
+--------------
+### Home page
+- Test passed
+![alt text](/static/css/images/homehtml.JPG)
+
+---------------------
+
+### Expenses page
+- Test passed
+![alt text](/static/css/images/expenseshtml.JPG)
+
+
+
+### style.css
+- Test passed
+![alt text](/static/css/images/css.JPG)
+
+
+
+
+
 
 ---------------------
 
