@@ -47,7 +47,7 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 ---
 I used Balsamiq to build a wireframe of the website before I began developement. I decide on a relatively simple design so I could focus more on the backend of the project.
 
-
+---------
 - Wireframe for the Home page
 -----------
 
@@ -101,6 +101,20 @@ I have these user stories that were completed for the project
 
 ## Features
 
+### Home Page
+
+The home page gives the user information about the website. It allows them to register/login/logout and navagate to the Expenses page.
+
+![alt text](/static/css/images/homes.JPG)
+
+---------
+### Expenses Page
+
+THe expenses page allows users to create, add, update and delete expenses. They can adjust their total budget and see the expenses total subtracted from it.It also allows them to register/login/logout and navagate to the Home page
+
+![alt text](/static/css/images/expenses.JPG)
+
+---------
 
 ----------------------
 ### User Register
