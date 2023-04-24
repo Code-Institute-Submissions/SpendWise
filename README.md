@@ -1,4 +1,4 @@
-# ExpenseAid
+# SpendWise
 
 ## Expense Tracking App
 ------------------------------------
@@ -88,23 +88,50 @@ I have these user stories that were completed for the project
 
 ## Features
 
-**Features planned:**
 
+----------------------
 ### User Register
 This feature allows new users to register an account on the website. Users will need to provide two basic pieces of information which is their username and password to create an account. Once registered, they will be able to log in to your website and access the features that are available to registered users.
+
+![alt text](/static/css/images/registerpage.JPG)
+
+---------
 ### User Login 
-
 This feature allows users who have already registered an account to log in to the website. Users will need to enter their username and password to access their account. Once logged in, they will be able to view their expenses, add new expenses, and use the budget calculator.
+![alt text](/static/css/images/loginpage.JPG)
 
+-------------
 ### User Logout
 User logout: This feature allows users to log out of their account when they are finished using your website. Logging out ensures that their account remains secure and that no one else can access their expenses.
+![alt text](/static/css/images/logoutpage.JPG)
+
+---------------
 ### Budget calculator
+This feature allows users to set a budget for a specific period, such as a month or a week, and track their expenses against that budget. Users can input their budget and their expenses will be subtracted from it. The calculator shows how much of their budget is left to spend
+![alt text](/static/css/images/budgetformpage.JPG)
+![alt text](/static/css/images/budgetdisplay.JPG)
 
-The use
-### Epxenses CRUD
-Expenses CRUD: CRUD stands for Create, Read, Update, and Delete. This feature allows users to manage their expenses by adding new expenses, viewing their existing expenses, updating their expenses, and deleting expenses they no longer need. Users can add details such as the date, amount, category, and description of each expense.
+----------
+### Read Expenses
+This feature allows users to view their existing expenses. Users can see a list of all their expenses on a single page.This feature helps users keep track of their spending and identify areas where they might need to cut back.
+![alt text](/static/css/images/readexpenses.JPG)
 
+------
+### Create Expenses
+This feature allows users to add new expenses to their account. Users can input details such as the date, amount and namen of each expense. This feature makes it easy for users to record their spending.
+![alt text](/static/css/images/createxpense.JPG)
 
+---------
+### Update Expenses
+This feature allows users to edit or update their existing expenses. Users can modify the details of an expense such as the date, amount, category, or description. This feature is useful when users make a mistake or need to make changes to their expenses.
+![alt text](/static/css/images/editexpense.JPG)
+
+------
+### Delete Expenses
+This feature allows users to remove an expense from their account. Users can delete an expense they no longer need, such as an expense that was entered in error or a duplicate expense. This feature helps users keep their expense records organized and up to date
+![alt text](/static/css/images/deleteexpense.JPG)
+
+------------
 ## Technologies used
 
 
@@ -172,7 +199,15 @@ I deployed my project to Herou using the following steps:
 - Type ‘git clone’ and then paste the URL you copied. Press Enter.
 
 |
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
--   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+-
+
+
+
+
+
+
+
+All Images used across the site were sourced from either pexels.com, freely available images. The Navbar bars Icon was taken from font awesome.
+
+I found inspiration for certain parts of my ReadMe from Previous ReadMe's to ensure It was thorough and well explained. I relied heavily on the Code institute course work, particularly the Django walk through projects. Further information was learned from several walk through projects available freely on youtube and websites like stackoverflow and geekforgeeks etc.
+

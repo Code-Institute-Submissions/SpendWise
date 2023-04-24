@@ -120,16 +120,15 @@
             <h2>{{expense.name}}</h2>
             
             <h3>$  {{expense.number}}</h3>
-           
-            
             <p>{{expense.date_field}}</p>
             <a class="expense_buttons" href = "/update/{{ expense.id }}">Edit</a>
             <a class="expense_buttons" href = "/delete/{{ expense.id }}">Delete</a>
             
-        </div>
-    </div>
         
+        </div>
         {% endfor %}
+    </div>
+    
     {% endif %}
    
   
