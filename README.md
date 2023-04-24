@@ -27,7 +27,7 @@ You can view the site here [here](https://.herokuapp.com/).
 ------
 
 ## Description
-TSpendWise is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
+SpendWise is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
 
 The user can also set an initial budget and the app will automatically deduct your expenses from your budget, giving you an up-to-date picture of your spending.
 
@@ -45,9 +45,22 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 
 #### Mwirefromas
 ---
-1 for home page and 1 for expenses 
-*  
+I used Balsamiq to build a wireframe of the website before I began developement. I decide on a relatively simple design so I could focus more on the backend of the project.
 
+
+- Wireframe for the Home page
+-----------
+
+![alt text](/static/css/images/homewire.JPG)
+
+-------------
+ 
+- Wireframe for the Expenses page
+-------------
+
+![alt text](/static/css/images/expensewire.JPG)
+
+-------------
 ### The Sites Ideal User
 
 *
