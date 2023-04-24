@@ -6,7 +6,7 @@
 ### Epic 1: User Register
 -----------
 
-### Sign-up
+### User story 1: Sign-up
 
 As a site user I can sign-up so that I use the website
 - Acceptance Criteria 1: Given when I click the register button, then the website displays the register form.
@@ -15,7 +15,7 @@ As a site user I can sign-up so that I use the website
 ### All tests passed
 
 ----------
-### User Login
+### User story 2:  User Login
 
 As a site user I can login into my account so that use the website
 - Acceptance Criteria 1: Given when I click the login button, then the website displays the login form.
@@ -23,7 +23,7 @@ As a site user I can login into my account so that use the website
 
 ### All tests passed
 ----------
-### User Logout
+### User story 3:  User Logout
 
 As a site user I can logout of my account so that I can stop using website features.
 - Acceptance Criteria 1: Given when I click the logout button, then the website displays the logout page.
@@ -32,10 +32,10 @@ As a site user I can logout of my account so that I can stop using website featu
 ### All tests passed
 
 ----------
-### Epic 1: User Register
+### Epic 2: CRUD
 --------
 
-### See expenses
+###  User story 4: See expenses
 
 As a site user I can see my expenses that were added so that track my spending
 - Acceptance Criteria 1: Given when I view expenses main page, then the website displays all my expenses.
@@ -43,7 +43,7 @@ As a site user I can see my expenses that were added so that track my spending
 
 ### All tests passed
 ---------------
-### Add expenses
+### User story 5: Add expenses
 
 As a site user I can see my expenses that were added so that I keep track of all expenses
 - Acceptance Criteria 1: Given when I click the add expense button, then the website displays the  add expense form
@@ -51,7 +51,7 @@ As a site user I can see my expenses that were added so that I keep track of all
 
 ### All tests passed
 --------------
-### Update expenses 
+### User story 6:  Update expenses 
 
 As a site user I can edit an expense so that I make changes to my expenses
 - Acceptance Criteria 1: Given when I click the edit expense button, then the website displays the edit expense form.
@@ -59,7 +59,7 @@ As a site user I can edit an expense so that I make changes to my expenses
 
 ### All tests passed
 ----------
-### Delete expenses
+###  User story 7: Delete expenses
 
 As a site user I can delete an expense so that I delete an expense that I dont want
 - Acceptance Criteria 1: Given when I click the delete expense button, then the expense is removed from expenses page

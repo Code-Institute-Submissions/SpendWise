@@ -91,10 +91,18 @@ I have these user stories that were completed for the project
 **Features planned:**
 
 ### User Register
+This feature allows new users to register an account on the website. Users will need to provide two basic pieces of information which is their username and password to create an account. Once registered, they will be able to log in to your website and access the features that are available to registered users.
 ### User Login 
+
+This feature allows users who have already registered an account to log in to the website. Users will need to enter their username and password to access their account. Once logged in, they will be able to view their expenses, add new expenses, and use the budget calculator.
+
 ### User Logout
+User logout: This feature allows users to log out of their account when they are finished using your website. Logging out ensures that their account remains secure and that no one else can access their expenses.
 ### Budget calculator
+
+The use
 ### Epxenses CRUD
+Expenses CRUD: CRUD stands for Create, Read, Update, and Delete. This feature allows users to manage their expenses by adding new expenses, viewing their existing expenses, updating their expenses, and deleting expenses they no longer need. Users can add details such as the date, amount, category, and description of each expense.
 
 
 ## Technologies used
