@@ -27,7 +27,7 @@ You can view the site here [here](https://.herokuapp.com/).
 ------
 
 ## Description
-The expenses tracker app is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
+TSpendWise is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
 
 The user can also set an initial budget and the app will automatically deduct your expenses from your budget, giving you an up-to-date picture of your spending.
 
@@ -203,11 +203,11 @@ I deployed my project to Herou using the following steps:
 
 
 
-
-
+## Credits
 
 
 All Images used across the site were sourced from either pexels.com, freely available images. The Navbar bars Icon was taken from font awesome.
 
 I found inspiration for certain parts of my ReadMe from Previous ReadMe's to ensure It was thorough and well explained. I relied heavily on the Code institute course work, particularly the Django walk through projects. Further information was learned from several walk through projects available freely on youtube and websites like stackoverflow and geekforgeeks etc.
 
+footer icons form code institue
