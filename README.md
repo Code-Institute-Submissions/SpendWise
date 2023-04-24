@@ -43,7 +43,7 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 ## Design
 -------
 
-#### Mwirefromas
+#### Wireframe
 ---
 I used Balsamiq to build a wireframe of the website before I began developement. I decide on a relatively simple design so I could focus more on the backend of the project.
 
@@ -83,7 +83,7 @@ I used Balsamiq to build a wireframe of the website before I began developement.
 -----------------------------------------------------------------
 ### User Stories
 
-I have these user stories that were completed for the project
+I wrote these users stories and used github projects feature to track them
 
 - Epic 1: User Register
 	*  Sign-up - As a site user I can sign-up so that I use the website
@@ -95,6 +95,10 @@ I have these user stories that were completed for the project
 	*  Add expenses - As a site user I add new expenses so that I can keep track of all expenses
 	*  Update expenses - As a site user I can edit an expense so that I make changes to my expenses
 	*  Delete expenses - As a site user I can delete an expense so that I delete an expense that I dont want
+
+
+
+![alt text](/static/css/images/userboard.JPG)
 
 
 
@@ -174,6 +178,8 @@ This feature allows users to remove an expense from their account. Users can del
 
 - ElephantSQL: Used to host PostgreSQL database.
 
+- Balsamiq: Used to design the websites wireframe.
+
 ### Packages used
 ![alt text](/static/css/pack.JPG)
 
@@ -205,7 +211,7 @@ I deployed my project to Herou using the following steps:
 - In the Settings.py file - add the STATIC files settings - storagepath, the url, directory path, root path, media url and default file storage path.
 -  Make a new file call Procfile. Add the following code: web: gunicorn ProjectName.wsgi
 - Add, commit and push all changes to Github.
-- Navigate to the deployment tab in Heroku. Link your github repo to Heroku and deploy the branch manually. View the build log for any errors.It will dipslay a link to the live site.
+- Navigate to the deployment tab in Heroku. Link your github repo to Heroku and deploy the branch manually. View the build log for any errors. It will dipslay a link to the live site.
 
 
 ### Forking the project
