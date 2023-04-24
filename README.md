@@ -43,6 +43,10 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 ## Design
 -------
 
+#### Structure of the app
+The app is designed to have a natural flow, with the main focus on basic crud functionality. All the pages include a header with navagation links to login/logout/sign up and navagation links to all the pages. IThe website includes a footer at the bottom of each page with links to social media.
+
+-----
 #### Wireframe
 ---
 I used Balsamiq to build a wireframe of the website before I began developement. I decide on a relatively simple design so I could focus more on the backend of the project.
@@ -75,13 +79,15 @@ I used Balsamiq to build a wireframe of the website before I began developement.
 
 ### Epics
 
-1. 12345
 
-### User Stories
+
+
 
 
 -----------------------------------------------------------------
 ### User Stories
+
+-------------
 
 I wrote these users stories and used github projects feature to track them
 
@@ -114,9 +120,25 @@ The home page gives the user information about the website. It allows them to re
 ---------
 ### Expenses Page
 
-THe expenses page allows users to create, add, update and delete expenses. They can adjust their total budget and see the expenses total subtracted from it.It also allows them to register/login/logout and navagate to the Home page
+THe expenses page allows users to create, add, update and delete expenses. They can adjust their total budget and see the expenses total subtracted from it. It also allows them to register/login/logout and navagate to the Home page
 
 ![alt text](/static/css/images/expenses.JPG)
+
+---------
+### Nav Bar
+
+The nav bar allows site users to signup/login/register and visit each page.
+
+
+![alt text](/static/css/images/nav.JPG)
+
+---------
+### Footer
+
+The footer provides site users with links to social media.
+
+
+![alt text](/static/css/images/footer.JPG)
 
 ---------
 
