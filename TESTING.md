@@ -16,7 +16,8 @@
 
 ------
 
-
+## Testing Strategy
+- I decided on a manual testing strategy for the development of the site.
 
 ### User Story Testing
 
@@ -159,9 +160,13 @@ As a site user I can delete an expense so that I delete an expense that I dont w
 ![alt text](/static/css/images/css.JPG)
 
 
+---------------------
 
+## Light house testing
+- Main pages
 
+![alt text](/static/css/images/ligth2.JPG)
+![alt text](/static/css/images/ligth1.JPG)
 
 
 ---------------------
-
