@@ -26,7 +26,7 @@
 
 ### User story 1: Sign-up
 
-As a site user I can sign-up so that I use the website
+> As a site user I can sign-up so that I use the website
 - Acceptance Criteria 1: Given when I click the register button, then the website displays the register form.
 - Acceptance Criteria 2: Given when I fill out a username and password, then I have an account on website.
 
@@ -35,7 +35,7 @@ As a site user I can sign-up so that I use the website
 ----------
 ### User story 2:  User Login
 
-As a site user I can login into my account so that use the website
+> As a site user I can login into my account so that use the website
 - Acceptance Criteria 1: Given when I click the login button, then the website displays the login form.
 - Acceptance Criteria 2: Given when I fill in my username and password, then I can login into my existing account.
 
@@ -43,7 +43,7 @@ As a site user I can login into my account so that use the website
 ----------
 ### User story 3:  User Logout
 
-As a site user I can logout of my account so that I can stop using website features.
+> As a site user I can logout of my account so that I can stop using website features.
 - Acceptance Criteria 1: Given when I click the logout button, then the website displays the logout page.
 - Acceptance Criteria 2: Given when I click the signout button, then my account is logged out.
 
@@ -55,7 +55,7 @@ As a site user I can logout of my account so that I can stop using website featu
 
 ###  User story 4: See expenses
 
-As a site user I can see my expenses that were added so that track my spending
+>As a site user I can see my expenses that were added so that track my spending
 - Acceptance Criteria 1: Given when I view expenses main page, then the website displays all my expenses.
 
 
@@ -63,7 +63,7 @@ As a site user I can see my expenses that were added so that track my spending
 ---------------
 ### User story 5: Add expenses
 
-As a site user I can see my expenses that were added so that I keep track of all expenses
+>As a site user I can see my expenses that were added so that I keep track of all expenses
 - Acceptance Criteria 1: Given when I click the add expense button, then the website displays the  add expense form
 - Acceptance Criteria 2: Given when I submit the form, then the expense is diplayed.
 
@@ -71,7 +71,7 @@ As a site user I can see my expenses that were added so that I keep track of all
 --------------
 ### User story 6:  Update expenses 
 
-As a site user I can edit an expense so that I make changes to my expenses
+>As a site user I can edit an expense so that I make changes to my expenses
 - Acceptance Criteria 1: Given when I click the edit expense button, then the website displays the edit expense form.
 - Acceptance Criteria 2: Given when I click the submit button, then the expense is updated.
 
@@ -79,13 +79,16 @@ As a site user I can edit an expense so that I make changes to my expenses
 ----------
 ###  User story 7: Delete expenses
 
-As a site user I can delete an expense so that I delete an expense that I dont want
+>As a site user I can delete an expense so that I delete an expense that I dont want
 - Acceptance Criteria 1: Given when I click the delete expense button, then the expense is removed from expenses page
 
 ### All tests passed
 -----------------------
+<br>
 
 ## Validator testing
+<br>
+<br>
 
 ## Python pep 8
 -----------------

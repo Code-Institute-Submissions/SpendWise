@@ -1,11 +1,9 @@
 # SpendWise
 
-## Expense Tracking App
 ------------------------------------
 ### put main image here
 
 You can view the site here [here](https://.herokuapp.com/). 
-
 
 -----
 
@@ -14,7 +12,6 @@ You can view the site here [here](https://.herokuapp.com/).
 
 - [Description](#description)
 - [Design](#design)
-- [UX](#ux)
 - [Agile Development](#agile-development)
 - [Features](#features)
 - [Testing](#testing)
@@ -25,8 +22,10 @@ You can view the site here [here](https://.herokuapp.com/).
 - [Author ](#author)
 
 ------
+<br>
 
 ## Description
+<br>
 SpendWise is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
 
 The user can also set an initial budget and the app will automatically deduct your expenses from your budget, giving you an up-to-date picture of your spending.
@@ -37,54 +36,57 @@ The app is designed to be user-friendly, with a simple interface that makes it e
 
 Overall, the expenses tracker app is a useful tool for anyone who wants to stay on top of their finances and make sure they are staying within their budget.
 
-#### website description
+ heroku link to web
 
+
+<br>
 -------
-## Design
--------
+<br>
+
+## Design/UX
+<br>
+
 
 #### Structure of the app
+<br>
 The app is designed to have a natural flow, with the main focus on basic crud functionality. All the pages include a header with navagation links to login/logout/sign up and navagation links to all the pages. IThe website includes a footer at the bottom of each page with links to social media.
 
 -----
-#### Wireframe
----
-I used Balsamiq to build a wireframe of the website before I began developement. I decide on a relatively simple design so I could focus more on the backend of the project.
+<br>
 
----------
+#### Wireframe
+<br>
+
+I used Balsamiq to build a wireframes for the website before I began developement. I decided on a relatively simple design so I could focus more on the backend of the project.
+
+<br>
 - Wireframe for the Home page
+<br>
 -----------
 
 ![alt text](/static/css/images/homewire.JPG)
 
 -------------
- 
+<br>
 - Wireframe for the Expenses page
--------------
+<br>
+
+---
 
 ![alt text](/static/css/images/expensewire.JPG)
 
 -------------
-### The Sites Ideal User
-
-*
-### Site Goals
 
 
-
-
-
-
+<br>
+<br>
 ## Agile Development
+
 
 ### Epics
 
 
-
-
-
-
------------------------------------------------------------------
+---
 ### User Stories
 
 -------------
@@ -185,6 +187,26 @@ This feature allows users to remove an expense from their account. Users can del
 ![alt text](/static/css/images/deleteexpense.JPG)
 
 ------------
+
+
+
+
+
+
+## Testing
+
+The testing strategy for the website can be found here [Testing.md](https://github.com/Thomas-Longworth/Expense-tracker/blob/main/TESTING.md)
+
+
+
+
+
+
+
+
+
+
+-----
 ## Technologies used
 
 
@@ -203,7 +225,7 @@ This feature allows users to remove an expense from their account. Users can del
 - Balsamiq: Used to design the websites wireframe.
 
 ### Packages used
-![alt text](/static/css/pack.JPG)
+![alt text](/static/css/images/pack.JPG)
 
 ## Deployment
 
