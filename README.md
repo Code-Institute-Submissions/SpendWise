@@ -254,15 +254,14 @@ I deployed my project to Herou using the following steps:
 - Type ‘git clone’ and then paste the URL you copied. Press Enter.
 
 |
--
+
 
 
 
 ## Credits
 
 
-All Images used across the site were sourced from either pexels.com, freely available images. The Navbar bars Icon was taken from font awesome.
+- The images used on the website pexels.com, freely available images.
+- The footer social media Icons were generated from font awesome and I took inspiration from Code Institutes love running project.
 
-I found inspiration for certain parts of my ReadMe from Previous ReadMe's to ensure It was thorough and well explained. I relied heavily on the Code institute course work, particularly the Django walk through projects. Further information was learned from several walk through projects available freely on youtube and websites like stackoverflow and geekforgeeks etc.
-
-footer icons form code institue
+- I used Code institute's walthrough projects "Hello Django" and "I think, therefore I blog" to learn the Django fundamentals

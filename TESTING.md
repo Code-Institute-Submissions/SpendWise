@@ -153,7 +153,11 @@ As a site user I can delete an expense so that I delete an expense that I dont w
 - Test passed
 ![alt text](/static/css/images/expenseshtml.JPG)
 
+--------
 
+## WC3 HTML Validatior
+
+--------
 
 ### style.css
 - Test passed
