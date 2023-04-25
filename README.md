@@ -40,38 +40,52 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 
 
 <br>
--------
+
+---
+
 <br>
 
 ## Design/UX
+
 <br>
 
 
 #### Structure of the app
+
 <br>
-The app is designed to have a natural flow, with the main focus on basic crud functionality. All the pages include a header with navagation links to login/logout/sign up and navagation links to all the pages. IThe website includes a footer at the bottom of each page with links to social media.
+
+The app is designed to have a natural flow, with the main focus on basic crud functionality. All the pages include a header with navagation links to login/logout/sign up and navagation links to all the pages. The website includes a footer at the bottom of each page with links to social media.
 
 -----
+
+
 <br>
 
 #### Wireframe
+
 <br>
 
 I used Balsamiq to build a wireframes for the website before I began developement. I decided on a relatively simple design so I could focus more on the backend of the project.
 
 <br>
+
 - Wireframe for the Home page
+
 <br>
------------
+
+
 
 ![alt text](/static/css/images/homewire.JPG)
 
 -------------
-<br>
-- Wireframe for the Expenses page
+
 <br>
 
----
+- Wireframe for the Expenses page
+
+<br>
+
+
 
 ![alt text](/static/css/images/expensewire.JPG)
 
@@ -80,16 +94,29 @@ I used Balsamiq to build a wireframes for the website before I began developemen
 
 <br>
 <br>
+
 ## Agile Development
 
+<br>
 
-### Epics
+
+I used the Agile methodology for my project, which emphasizes collaboration, flexibility, and customer satisfaction. One of the key tools used in Agile development is user stories.
+
+I created and managed user stories for my website project using github issues. I defined user stories for the features and functions. 
+
+To map my user stories to GitHub project for my website, I created a GitHub repository for my project and used the GitHub project feature to track the user stories. I linked each user story to a GitHub issue and used a label to indicate priority.
+
+
+<br>
 
 
 ---
 ### User Stories
 
--------------
+<br>
+
+
+<br>
 
 I wrote these users stories and used github projects feature to track them
 
@@ -104,29 +131,50 @@ I wrote these users stories and used github projects feature to track them
 	*  Update expenses - As a site user I can edit an expense so that I make changes to my expenses
 	*  Delete expenses - As a site user I can delete an expense so that I delete an expense that I dont want
 
+<br>
+
 
 
 ![alt text](/static/css/images/userboard.JPG)
 
+<br>
+
+------
+
+<br>
 
 
 
 ## Features
+<br>
 
 ### Home Page
+
+<br>
 
 The home page gives the user information about the website. It allows them to register/login/logout and navagate to the Expenses page.
 
 ![alt text](/static/css/images/homes.JPG)
 
+<br>
+
 ---------
+<br>
+
 ### Expenses Page
+
+<br>
 
 THe expenses page allows users to create, add, update and delete expenses. They can adjust their total budget and see the expenses total subtracted from it. It also allows them to register/login/logout and navagate to the Home page
 
 ![alt text](/static/css/images/expenses.JPG)
 
+<br>
+
 ---------
+
+<br>
+
 ### Nav Bar
 
 The nav bar allows site users to signup/login/register and visit each page.
@@ -135,59 +183,128 @@ The nav bar allows site users to signup/login/register and visit each page.
 ![alt text](/static/css/images/nav.JPG)
 
 ---------
+
+<br>
+
 ### Footer
+
+<br>
 
 The footer provides site users with links to social media.
 
 
 ![alt text](/static/css/images/footer.JPG)
 
+<br>
+
 ---------
 
-----------------------
+<br>
+
 ### User Register
+
+<br>
+
 This feature allows new users to register an account on the website. Users will need to provide two basic pieces of information which is their username and password to create an account. Once registered, they will be able to log in to your website and access the features that are available to registered users.
 
 ![alt text](/static/css/images/registerpage.JPG)
 
+<br>
+
 ---------
+
+<br>
+
 ### User Login 
+
+<br>
+
 This feature allows users who have already registered an account to log in to the website. Users will need to enter their username and password to access their account. Once logged in, they will be able to view their expenses, add new expenses, and use the budget calculator.
 ![alt text](/static/css/images/loginpage.JPG)
 
--------------
+<br>
+
+-----------
+
+<br>
+
 ### User Logout
+
+<br>
+
 User logout: This feature allows users to log out of their account when they are finished using your website. Logging out ensures that their account remains secure and that no one else can access their expenses.
 ![alt text](/static/css/images/logoutpage.JPG)
 
+<br>
+
 ---------------
+
+<br>
+
 ### Budget calculator
+
+<br>
+
 This feature allows users to set a budget for a specific period, such as a month or a week, and track their expenses against that budget. Users can input their budget and their expenses will be subtracted from it. The calculator shows how much of their budget is left to spend
 ![alt text](/static/css/images/budgetformpage.JPG)
 ![alt text](/static/css/images/budgetdisplay.JPG)
 
+<br>
+
 ----------
+
+<br>
+
 ### Read Expenses
+
+<br>
+
 This feature allows users to view their existing expenses. Users can see a list of all their expenses on a single page.This feature helps users keep track of their spending and identify areas where they might need to cut back.
 ![alt text](/static/css/images/readexpenses.JPG)
 
+<br>
+
 ------
+
+<br>
+
 ### Create Expenses
+
+<br>
+
 This feature allows users to add new expenses to their account. Users can input details such as the date, amount and namen of each expense. This feature makes it easy for users to record their spending.
 ![alt text](/static/css/images/createxpense.JPG)
 
+<br>
+
 ---------
+
+<br>
+
 ### Update Expenses
+
+<br>
+
+
 This feature allows users to edit or update their existing expenses. Users can modify the details of an expense such as the date, amount, category, or description. This feature is useful when users make a mistake or need to make changes to their expenses.
 ![alt text](/static/css/images/editexpense.JPG)
 
+<br>
+
 ------
+
+<br>
+
 ### Delete Expenses
+
+<br>
 This feature allows users to remove an expense from their account. Users can delete an expense they no longer need, such as an expense that was entered in error or a duplicate expense. This feature helps users keep their expense records organized and up to date
 ![alt text](/static/css/images/deleteexpense.JPG)
 
+<br>
+<br>
 ------------
-
+<br>
 
 
 
