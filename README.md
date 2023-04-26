@@ -303,7 +303,9 @@ This feature allows users to remove an expense from their account. Users can del
 
 <br>
 <br>
+
 ------------
+
 <br>
 
 
