@@ -17,8 +17,12 @@
 ------
 
 ## Testing Strategy
+
 <br>
-- I decided on a manual testing strategy for the development of the site.
+
+- I decided on a manual testing strategy for the development of the site. I did this to ensure the website is user-friendly and check issues with navigation, layout, and usability that may not be apparent through automated testing.
+
+
 
 ------------
 
@@ -51,6 +55,7 @@
 <br>
 
 ### User story 2:  User Login
+
 <br>
 
 > As a site user I can login into my account so that use the website
@@ -281,3 +286,8 @@
 
 
 ---------------------
+
+
+
+### Site responsiveness
+
