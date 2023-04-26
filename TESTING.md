@@ -291,3 +291,7 @@
 
 ### Site responsiveness
 
+### Browser compatiabiliy 
+### Bugs
+
+### Feature Testing 
