@@ -168,7 +168,7 @@ body {
     padding-bottom: 5px;
 }
 #menu li {
-    font-size: 1.2vw;
+   
     padding-left:1.5vw;
     display:inline;  
    
@@ -245,7 +245,7 @@ body {
     box-shadow: 0 3px 10px purple;
 }
 #menu a {
-    
+    font-size: 1.6vw;
     text-decoration: none; 
     color:black;  
 }
@@ -494,10 +494,6 @@ body {
 }
 
 
-
-.typewiter{
-   
-}
 .type{
     overflow: hidden;
     
@@ -536,7 +532,24 @@ body {
     .expense_div {
         width:25%;
        
+    }
+    #home { 
        
+    }
+    #main {  
+        text-align: center;
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+    #menu  {
+        text-align: center;
+        padding-top:2.5px; 
+        list-style:circle;
+        padding-bottom: 2.5px;
+    }
+    #menu a {
+        font-size: 2vw;
        
     }
 }
@@ -580,6 +593,13 @@ body {
     #image_container{
         text-align:center;
     }
-    
+    #main {  
+        
+        font-size: 4.3vw;
+    }
+    #menu a {
+       
+        font-size:2.5vw;
+    }
         
 }
