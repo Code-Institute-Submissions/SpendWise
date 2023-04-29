@@ -565,6 +565,7 @@ body {
     }
     
     body{
+        font-family: Arial, Helvetica, sans-serif;
        
     }
     
@@ -603,8 +604,7 @@ body {
         flex-wrap: wrap;
        
         
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
+        
        
     }
     #text_box {
@@ -627,7 +627,7 @@ body {
     #text_box h2 {
         margin-top: 5%;
         margin-bottom: 5%;
-        font-size:23px;
+        font-size:21px;
     }
     #start {
     
@@ -683,9 +683,78 @@ body {
         font-size: 25px;
         margin: 1%;
         color: black;
-    
-    
-        
     }
+    .title_h1 {
+        font-size:23px;
+    }
+    .btn_add {
+        font-size: 17px;
+    }
+    
+    #money_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    
+    }
+    .main_buttons_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    
+    }
+    .total {
+        width:50%;
+    
+        color:black;
+        background-color: lightcoral;
+        border:solid 3px black;
+        
+        text-align: center;
+
+    }
+    .total h2 {
+        font-size:17px;
+    }
+    .total h3 {
+        font-size:17px;
+    
+    }
+    .budget {
+        width:50%;
+        color:black;
+        background-color: lightgreen;
+        border:solid 3px black;
+       
+        text-align: center;
+    }
+    .budget h2 {
+        font-size: 17px;
+    }
+    .budget h3 {
+        font-size:17px;
+    }
+
+    .leftover {
+        width:50%;
+        text-align: center; 
+        color:black;
+        background-color: lightblue;
+        border:solid 3px black;
+        text-align: center;
+    }
+    .leftover h2 {
+        font-size: 17px;
+    
+    }
+    .leftover h3 {
+        font-size: 17px;
+    }
+
+    
         
 }
