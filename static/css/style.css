@@ -315,6 +315,7 @@ body {
 }
 
 #about_container {
+    margin-top: 0px;
     display:flex;
     justify-content: space-evenly;
 }
@@ -588,11 +589,11 @@ body {
     }
     #main {  
         
-        font-size: 4.3vw;
+        font-size: 30px;
     }
     #menu a {
        
-        font-size:2.5vw;
+        font-size:17px;
     }
     #about_container {
         
@@ -600,35 +601,33 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: red;
-    
+       
         
         font-family: 'Courier New', Courier, monospace;
         font-style: normal;
        
     }
     #text_box {
-        background-color: lightcoral;
+        
         text-align: center;
         padding: 5%;
-        width:70%;
+        width:100%;
 
     }
     #text_box h1 {
-        color:green;
-        font-size:4vw;
+       
+        font-size:23px
     }
     #text_box p {
         
         margin-top: 5%;
-        font-size: 1.6vw;
+        font-size: 17px;
 
     }
     #text_box h2 {
         margin-top: 5%;
         margin-bottom: 5%;
-        font-size:1.5vw;
-
+        font-size:23px;
     }
     #start {
     
@@ -644,7 +643,7 @@ body {
 
     .start_buttons {
         display: inline-block;
-        font-size: 1vw;
+        font-size: 14px;
         padding: 7.5px 15px;
         height:fit-content;
         
@@ -665,16 +664,28 @@ body {
 
     #image_container {
         padding: 5%;
-        width:45%
+        width:80%
 
     }
     #image_container img {
-        text-align:center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
     
-        width:80%;
+      
         border: 2px solid black;
         border-radius: 60px; 
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+    }
+    .social_media i {
+        margin-top:5%;
+        font-size: 25px;
+        margin: 1%;
+        color: black;
+    
+    
+        
     }
         
 }
