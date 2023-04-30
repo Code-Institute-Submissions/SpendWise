@@ -24,7 +24,10 @@ You can view the site here [here](https://.herokuapp.com/).
 ------
 <br>
 
+<br>
+
 ## Description
+
 <br>
 SpendWise is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
 
@@ -56,16 +59,20 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 
 The app is designed to have a natural flow, with the main focus on basic crud functionality. All the pages include a header with navagation links to login/logout/sign up and navagation links to all the pages. The website includes a footer at the bottom of each page with links to social media.
 
+<br>
+
 -----
 
 
 <br>
 
-#### Wireframe
+#### Wireframes
 
 <br>
 
-I used Balsamiq to build a wireframes for the website before I began developement. I decided on a relatively simple design so I could focus more on the backend of the project.
+<br>
+
+- I used Balsamiq to build a wireframes for the website before I began developement. I decided on a relatively simple design so I could focus more on the backend of the project.
 
 <br>
 
@@ -75,7 +82,9 @@ I used Balsamiq to build a wireframes for the website before I began developemen
 
 
 
-![alt text](/static/css/images/homewire.JPG)
+![alt text](static/images/homewire.JPG)
+
+<br>
 
 -------------
 
@@ -86,8 +95,9 @@ I used Balsamiq to build a wireframes for the website before I began developemen
 <br>
 
 
+![alt text](static/images/expensewire.JPG)
 
-![alt text](/static/css/images/expensewire.JPG)
+<br>
 
 -------------
 
@@ -109,6 +119,7 @@ To map my user stories to GitHub project for my website, I created a GitHub repo
 
 <br>
 
+<br>
 
 ---
 ### User Stories
@@ -118,12 +129,16 @@ To map my user stories to GitHub project for my website, I created a GitHub repo
 
 <br>
 
-I wrote these users stories and used github projects feature to track them
+I wrote these users stories and used Github projects feature to track them
+
+<br>
 
 - Epic 1: User Register
 	*  Sign-up - As a site user I can sign-up so that I use the website
 	*  User Login - As a site user I can login into my account so that use the website
     *  User Logout - As a site user I can logout of my account so that stop using website features
+
+<br>
 
 - Epic 2: Expenses CRUD
 	*  See expenses - As a site user I can see my expenses that were added so that track my spending
@@ -132,8 +147,6 @@ I wrote these users stories and used github projects feature to track them
 	*  Delete expenses - As a site user I can delete an expense so that I delete an expense that I dont want
 
 <br>
-
-
 
 ![alt text](/static/css/images/userboard.JPG)
 
@@ -154,7 +167,9 @@ I wrote these users stories and used github projects feature to track them
 
 The home page gives the user information about the website. It allows them to register/login/logout and navagate to the Expenses page.
 
-![alt text](/static/css/images/homes.JPG)
+<br>
+
+![alt text](static/images/homes.JPG)
 
 <br>
 
@@ -167,7 +182,9 @@ The home page gives the user information about the website. It allows them to re
 
 THe expenses page allows users to create, add, update and delete expenses. They can adjust their total budget and see the expenses total subtracted from it. It also allows them to register/login/logout and navagate to the Home page
 
-![alt text](/static/css/images/expenses.JPG)
+<br>
+
+![alt text](static/images/expenses.JPG)
 
 <br>
 
@@ -179,8 +196,10 @@ THe expenses page allows users to create, add, update and delete expenses. They 
 
 The nav bar allows site users to signup/login/register and visit each page.
 
+<br>
 
-![alt text](/static/css/images/nav.JPG)
+
+![alt text](static/images/nav.JPG)
 
 ---------
 
@@ -192,8 +211,10 @@ The nav bar allows site users to signup/login/register and visit each page.
 
 The footer provides site users with links to social media.
 
+<br>
 
-![alt text](/static/css/images/footer.JPG)
+
+![alt text](static/images/footer.JPG)
 
 <br>
 
@@ -207,7 +228,9 @@ The footer provides site users with links to social media.
 
 This feature allows new users to register an account on the website. Users will need to provide two basic pieces of information which is their username and password to create an account. Once registered, they will be able to log in to your website and access the features that are available to registered users.
 
-![alt text](/static/css/images/registerpage.JPG)
+<br>
+
+![alt text](static/images/registerpage.JPG)
 
 <br>
 
@@ -220,7 +243,10 @@ This feature allows new users to register an account on the website. Users will 
 <br>
 
 This feature allows users who have already registered an account to log in to the website. Users will need to enter their username and password to access their account. Once logged in, they will be able to view their expenses, add new expenses, and use the budget calculator.
-![alt text](/static/css/images/loginpage.JPG)
+
+<br>
+
+![alt text](static/images/loginpage.JPG)
 
 <br>
 
@@ -233,7 +259,10 @@ This feature allows users who have already registered an account to log in to th
 <br>
 
 User logout: This feature allows users to log out of their account when they are finished using your website. Logging out ensures that their account remains secure and that no one else can access their expenses.
-![alt text](/static/css/images/logoutpage.JPG)
+
+<br>
+
+![alt text](static/images/logoutpage.JPG)
 
 <br>
 
@@ -246,8 +275,13 @@ User logout: This feature allows users to log out of their account when they are
 <br>
 
 This feature allows users to set a budget for a specific period, such as a month or a week, and track their expenses against that budget. Users can input their budget and their expenses will be subtracted from it. The calculator shows how much of their budget is left to spend
-![alt text](/static/css/images/budgetformpage.JPG)
-![alt text](/static/css/images/budgetdisplay.JPG)
+
+<br>
+
+![alt text](static//images/budgetformpage.JPG)
+<br>
+
+![alt text](static/images/budgetdisplay.JPG)
 
 <br>
 
@@ -260,7 +294,10 @@ This feature allows users to set a budget for a specific period, such as a month
 <br>
 
 This feature allows users to view their existing expenses. Users can see a list of all their expenses on a single page.This feature helps users keep track of their spending and identify areas where they might need to cut back.
-![alt text](/static/css/images/readexpenses.JPG)
+
+<br>
+
+![alt text](static/images/readexpenses.JPG)
 
 <br>
 
@@ -273,7 +310,10 @@ This feature allows users to view their existing expenses. Users can see a list 
 <br>
 
 This feature allows users to add new expenses to their account. Users can input details such as the date, amount and namen of each expense. This feature makes it easy for users to record their spending.
-![alt text](/static/css/images/createxpense.JPG)
+
+<br>
+
+![alt text](static/images/createxpense.JPG)
 
 <br>
 
@@ -287,7 +327,10 @@ This feature allows users to add new expenses to their account. Users can input 
 
 
 This feature allows users to edit or update their existing expenses. Users can modify the details of an expense such as the date, amount, category, or description. This feature is useful when users make a mistake or need to make changes to their expenses.
-![alt text](/static/css/images/editexpense.JPG)
+
+<br>
+
+![alt text](static/images/editexpense.JPG)
 
 <br>
 
@@ -299,9 +342,12 @@ This feature allows users to edit or update their existing expenses. Users can m
 
 <br>
 This feature allows users to remove an expense from their account. Users can delete an expense they no longer need, such as an expense that was entered in error or a duplicate expense. This feature helps users keep their expense records organized and up to date
-![alt text](/static/css/images/deleteexpense.JPG)
 
 <br>
+
+![alt text](static/images/deleteexpense.JPG)
+
+
 <br>
 
 ------------
@@ -323,14 +369,10 @@ The testing strategy for the website can be found here [Testing.md](https://gith
 
 
 
-
-
-
-
-
-
-
 -----
+
+<br>
+
 ## Technologies used
 
 
@@ -348,8 +390,23 @@ The testing strategy for the website can be found here [Testing.md](https://gith
 
 - Balsamiq: Used to design the websites wireframe.
 
+
+
+<br>
+
 ### Packages used
-![alt text](/static/css/images/pack.JPG)
+
+<br>
+
+![alt text](static/images/pack.JPG)
+
+
+<br>
+----------
+
+<br>
+
+<br>
 
 ## Deployment
 

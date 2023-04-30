@@ -11,7 +11,7 @@
 - [Testing](#testing)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
-- [Credits](#credits)
+- [Bugs](#bugs)
 
 
 ------
@@ -157,7 +157,9 @@
 - Test passed
 <br>
 
-![alt text](/static/css/images/viewspep8.JPG)
+![alt text](static/images/viewspep8.JPG)
+
+<br>
 
 ---------------------
 <br>
@@ -168,7 +170,9 @@
 
 - I left these errors as they dont affect readability
 <br>
-![alt text](/static/css/images/modelspep8.JPG)
+![alt text](static/images/modelspep8.JPG)
+
+<br>
 
 ---------------------
 <br>
@@ -181,7 +185,9 @@
 
 <br>
 
-![alt text](/static/css/images/eurlspep8.JPG)
+![alt text](static/images/eurlspep8.JPG)
+
+<br>
 
 ---------------------
 
@@ -195,7 +201,9 @@
 
 <br>
 
-![alt text](/static/css/images/urlspep8.JPG)
+![alt text](static/images/urlspep8.JPG)
+
+<br>
 
 ---------------------
 
@@ -209,7 +217,9 @@
 
 <br>
 
-![alt text](/static/css/images/formspep8.JPG)
+![alt text](static/images/formspep8.JPG)
+
+<br>
 
 ---------------------
 <br>
@@ -222,7 +232,9 @@
 
 <br>
 
-![alt text](/static/css/images/settingspep8.JPG)
+![alt text](static/images/settingspep8.JPG)
+
+<br>
 
 ---------------------
 
@@ -242,7 +254,7 @@
 
 <br>
 
-![alt text](/static/css/images/jsfile.JPG)
+![alt text](static/images/jsfile.JPG)
 
 <br>
 
@@ -252,40 +264,95 @@
 
 
 
+<br>
+
 
 ## WC3 HTML Validatior
+
+<br>
+
 --------------
+
+<br>
+
+
 ### Home page
+
+<br>
+
 - Test passed
-![alt text](/static/css/images/homehtml.JPG)
+
+<br>
+
+![alt text](static/images/homehtml.JPG)
+
+<br>
 
 ---------------------
+<br>
 
 ### Expenses page
+
+<br>
+
 - Test passed
-![alt text](/static/css/images/expenseshtml.JPG)
+
+<br>
+
+![alt text](static/images/expenseshtml.JPG)
+
+<br>
 
 --------
+
+<br>
+
+<br>
 
 ## WC3 HTML Validatior
 
---------
+<br>
+
+<br>
 
 ### style.css
-- Test passed
-![alt text](/static/css/images/css.JPG)
 
+<br>
+
+
+- Test passed
+
+<br>
+
+
+![alt text](static/images/css.JPG)
+
+<br>
 
 ---------------------
+
+<br>
+<br>
 
 ## Light house testing
+
+<br>
+
 - Main pages
 
-![alt text](/static/css/images/ligth2.JPG)
-![alt text](/static/css/images/ligth1.JPG)
+<br>
 
+![alt text](static/images/ligth2.JPG)
 
----------------------
+<br>
+
+![alt text](static/images/ligth1.JPG)
+
+<br>
+
+------------------
+
+<br>
 
 
 
@@ -293,5 +360,23 @@
 
 ### Browser compatiabiliy 
 ### Bugs
+
+<br>
+
+- On rare occasion, the user will get a 404 page error when they try to delete an expense.
+
+<br>
+
+![alt text](static/images/deletebug.JPG)
+
+<br>
+
+-------
+
+<br>
+
+
+
+
 
 ### Feature Testing 
