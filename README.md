@@ -1,16 +1,19 @@
 # SpendWise
 
 ------------------------------------
-### put main image here
+<br>
 
-You can view the site here [here](https://.herokuapp.com/). 
+![alt text](static/images/response.JPG)
+
+<br>
+
 
 -----
 
 ## Table of Contents
 --------------------------------------
 
-- [Description](#description)
+- [About](#about)
 - [Design](#design)
 - [Agile Development](#agile-development)
 - [Features](#features)
@@ -18,15 +21,15 @@ You can view the site here [here](https://.herokuapp.com/).
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 - [Credits](#credits)
--
-- [Author ](#author)
+
+<br>
 
 ------
 <br>
 
 <br>
 
-## Description
+## About
 
 <br>
 SpendWise is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
@@ -72,7 +75,9 @@ The app is designed to have a natural flow, with the main focus on basic crud fu
 
 <br>
 
-- I used Balsamiq to build a wireframes for the website before I began developement. I decided on a relatively simple design so I could focus more on the backend of the project.
+I used Balsamiq to build a wireframes for the website before I began developement. I decided on a relatively simple design so I could focus more on the backend of the project.
+
+<br>
 
 <br>
 
@@ -341,9 +346,11 @@ This feature allows users to edit or update their existing expenses. Users can m
 ### Delete Expenses
 
 <br>
-This feature allows users to remove an expense from their account. Users can delete an expense they no longer need, such as an expense that was entered in error or a duplicate expense. This feature helps users keep their expense records organized and up to date
+
+This feature allows users to remove an expense from their account. Users can delete an expense they no longer need, such as an expense that was entered in error or a duplicate expense. This feature helps users keep their expense records organized and up to date.
 
 <br>
+
 
 ![alt text](static/images/deleteexpense.JPG)
 
@@ -402,6 +409,7 @@ The testing strategy for the website can be found here [Testing.md](https://gith
 
 
 <br>
+
 ----------
 
 <br>
@@ -410,9 +418,15 @@ The testing strategy for the website can be found here [Testing.md](https://gith
 
 ## Deployment
 
+<br>
+
 The site was deployed via Heroku, and the live link can be found here - [Expensed](https://dashboard.heroku.com/apps/expensed)
 
+<br>
+
 ### Project Deployment
+
+<br>
 
 I deployed my project to Herou using the following steps:
 
@@ -438,14 +452,18 @@ I deployed my project to Herou using the following steps:
 - Add, commit and push all changes to Github.
 - Navigate to the deployment tab in Heroku. Link your github repo to Heroku and deploy the branch manually. View the build log for any errors. It will dipslay a link to the live site.
 
+<br>
 
 ### Forking the project
+
+<br>
 
  
 - Sign/regester in to Github and go to my repository at https://github.com/Thomas-Longworth/Expense-tracker .
 - Navagage the Fork button at the top right of the page and select it.
 - The fork is now created and copied to your repositories.
 
+<br>
 
 ### Cloning the project
   
@@ -456,15 +474,29 @@ I deployed my project to Herou using the following steps:
 - Open git bash
 - Type ‘git clone’ and then paste the URL you copied. Press Enter.
 
-|
 
+<br>
+
+--------
+
+<br>
+
+<br>
 
 
 
 ## Credits
+
+<br>
+
+
 
 
 - The images used on the website pexels.com, freely available images.
 - The footer social media Icons were generated from font awesome and I took inspiration from Code Institutes love running project.
 
 - I used Code institute's walthrough projects "Hello Django" and "I think, therefore I blog" to learn the Django fundamentals
+
+
+<br>
+-------------

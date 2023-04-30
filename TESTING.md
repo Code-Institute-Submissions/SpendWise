@@ -3,25 +3,29 @@
 ## Table of Contents
 --------------------------------------
 
-- [Description](#description)
-- [Design](#design)
-- [UX](#ux)
-- [Agile Development](#agile-development)
-- [Features](#features)
-- [Testing](#testing)
-- [Technologies Used](#technologies-used)
-- [Deployment](#deployment)
+<br>
+
+- [Testing Strategy](#testing-strategy)
+- [User story testing](#user-story-testing)
+- [Validator Testing](#validator-testing)
+- [Manual Testing](#manual-testing)
 - [Bugs](#bugs)
 
 
 ------
 
+<br>
+
 ## Testing Strategy
+
+<br>
 
 <br>
 
 - I decided on a manual testing strategy for the development of the site. I did this to ensure the website is user-friendly and check issues with navigation, layout, and usability that may not be apparent through automated testing.
 
+
+<br>
 
 
 ------------
@@ -31,16 +35,17 @@
 
 <br>
 
-### User Story Testing
+## User Story Testing
 
 <br>
+<br>
 
-### Epic 1: User Register
+#### Epic 1: User Register
 -----------
 
 <br>
 
-### User story 1: Sign-up
+#### User story 1: Sign-up
 
 <br>
 
@@ -139,22 +144,36 @@
 <br>
 
 
+
+
 ## Validator testing
 <br>
 
-------------
+----------
 
 <br>
 
 
+
+
 ## Python pep 8
+
+<br>
+
+
+All the custom Python code was was tested manually thoughout the project and with the following pep8 validator.
+
+
+
 <br>
 <br>
 
 
 ### views.py 
 <br>
+
 - Test passed
+
 <br>
 
 ![alt text](static/images/viewspep8.JPG)
@@ -168,8 +187,10 @@
 
 <br>
 
-- I left these errors as they dont affect readability
+- I left these line length errors as they dont affect readability
+
 <br>
+
 ![alt text](static/images/modelspep8.JPG)
 
 <br>
@@ -243,10 +264,12 @@
 
 ## Jshint
 
+
+
 <br>
 <br>
 
-### settings.py 
+### main.js 
 
 <br>
 
@@ -276,7 +299,7 @@
 <br>
 
 
-### Home page
+### home_page.html
 
 <br>
 
@@ -291,7 +314,7 @@
 ---------------------
 <br>
 
-### Expenses page
+### expenses_page.html
 
 <br>
 
@@ -309,11 +332,15 @@
 
 <br>
 
-## WC3 HTML Validatior
+## WC3 CSS Validatior
 
 <br>
 
+-------
+
 <br>
+
+
 
 ### style.css
 
@@ -336,6 +363,11 @@
 
 ## Light house testing
 
+
+
+
+----------
+
 <br>
 
 - Main pages
@@ -355,15 +387,48 @@
 <br>
 
 
+<br>
 
-### Site responsiveness
-
-### Browser compatiabiliy 
-### Bugs
+## Manual Testing
 
 <br>
 
-- On rare occasion, the user will get a 404 page error when they try to delete an expense.
+----
+<br>
+
+### Site responsiveness
+
+<br>
+
+- I manually tested the responsiveness of the website on many devices. I used Chrome DevTools to simulate different screen sizes also. I made sure there were not significant issues such as overlapping text, images not scaling properly, and buttons that are difficult to click. 
+
+<br>
+
+![alt text](static/images/response.JPG)
+
+<br>
+
+
+---------
+
+
+<br>
+
+### Browser compatiabiliy 
+
+<br>
+
+- I checked that the website worked in the following browsers: Google Chrome, Mozilla Firefox, Apple Safari, Microsoft Edge. 
+
+<br>
+
+-------
+
+## Bugs
+
+<br>
+
+- Sometimes, the user will get a 404 page error when they try to delete an expense. To reproduce the bug, the user needs to delete a large number of expense items. 
 
 <br>
 
@@ -379,4 +444,4 @@
 
 
 
-### Feature Testing 
+
