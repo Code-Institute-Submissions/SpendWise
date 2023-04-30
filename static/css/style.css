@@ -45,14 +45,6 @@ body {
     font-size:2vw;
 }
 
-#expenses_title {
-    text-align: center;
-    margin-bottom:1%;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 2%;
-    margin-left: 5%;
-}
 
 .expense_div {
     justify-content: space-evenly;
@@ -571,8 +563,6 @@ body {
     
     .expense_div {
         width:30%;
-       
-    
 
     }
     .placeholder_expense {
@@ -592,8 +582,7 @@ body {
         
         font-size: 30px;
     }
-    #menu a {
-       
+    #menu a { 
         font-size:17px;
     }
     #about_container {
@@ -602,9 +591,6 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-       
-        
-        
        
     }
     #text_box {
@@ -713,6 +699,7 @@ body {
         color:black;
         background-color: lightcoral;
         border:solid 3px black;
+        border-bottom: none;
         
         text-align: center;
 
@@ -729,6 +716,7 @@ body {
         color:black;
         background-color: lightgreen;
         border:solid 3px black;
+        border-bottom: none;
        
         text-align: center;
     }
@@ -754,7 +742,62 @@ body {
     .leftover h3 {
         font-size: 17px;
     }
-
+    .container {
+        height: fit-content;
+        min-height: 0px;
+    }
     
+   
+    
+    .placeholder_expense {
+        height: 75px;
+        min-height:fit-content;
+       
+        width:30%;
+    }
+
+
+        
+    .expense_div {
+        justify-content: space-evenly;
+        width:50%;
+        margin: 2%;
+        height:fit-content;
+        max-height: 175px;
+       
+    }
+    .expense_div h2 {
+    
+        
+        margin-top: 5%;
+        border-bottom: black solid 2px;
+        font-size: 17px;
+    
+    }
+    .expense_div h3 {
+        margin-top: 5%;
+        font-size: 16px;
+
+    }
+    .expense_div p {
+        font-style: italic;
+        margin-top: 5%;
+        font-size: 13px
+
+    }
+
+    .expense_buttons {
+        font-size: 14px;
+       
+    
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 5%;
+
+    }
+
+        
         
 }
