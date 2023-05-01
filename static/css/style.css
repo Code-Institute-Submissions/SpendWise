@@ -10,6 +10,7 @@ body {
     font-family:cursive;
     background-color: #ccc;
     
+    
 
 }
 .container {
@@ -158,6 +159,7 @@ body {
     padding-bottom: 5px;
 }
 #menu li {
+    
    
     padding-left:1.5vw;
     display:inline;  
@@ -235,7 +237,7 @@ body {
     box-shadow: 0 3px 10px purple;
 }
 #menu a {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     text-decoration: none; 
     color:black;  
 }
@@ -587,7 +589,7 @@ body {
         padding-bottom: 2.5px;
     }
     #menu a {
-        font-size: 2.1vw;
+        font-size: 1.9vw;
        
     }
     .title_h1 {
