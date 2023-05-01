@@ -34,7 +34,7 @@
 <br>
 SpendWise is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
 
-The user can also set an initial budget and the app will automatically deduct your expenses from your budget, giving you an up-to-date picture of your spending.
+The user can also set an initial budget and the app will automatically deduct your expenses from your budget, giving the user an up-to-date picture of their spending.
 
 To use the app, users start by specifying an initial budget. They can then add expenses by entering the amount spent, along with a description of the expense. The app will subtract the total amount of the expenses from the total budget, so users can easily see how much they have left to spend.
 
@@ -42,7 +42,7 @@ The app is designed to be user-friendly, with a simple interface that makes it e
 
 Overall, the expenses tracker app is a useful tool for anyone who wants to stay on top of their finances and make sure they are staying within their budget.
 
- heroku link to web
+Link to live website
 
 
 <br>
@@ -60,7 +60,7 @@ Overall, the expenses tracker app is a useful tool for anyone who wants to stay 
 
 <br>
 
-The app is designed to have a natural flow, with the main focus on basic crud functionality. All the pages include a header with navagation links to login/logout/sign up and navagation links to all the pages. The website includes a footer at the bottom of each page with links to social media.
+The app is designed to have a natural flow, with the main focus on basic crud functionality. All the pages include a header with navagation links to login/logout/sign up and links to all the pages. The website includes a footer at the bottom of each page with links to social media.
 
 <br>
 
@@ -75,7 +75,7 @@ The app is designed to have a natural flow, with the main focus on basic crud fu
 
 <br>
 
-I used Balsamiq to build a wireframes for the website before I began developement. I decided on a relatively simple design so I could focus more on the backend of the project.
+I used Balsamiq to build wireframes for the website before I began developement. I decided on a relatively simple design so I could focus more on the backend of the project.
 
 <br>
 
@@ -119,7 +119,7 @@ I used the Agile methodology for my project, which emphasizes collaboration, fle
 
 I created and managed user stories for my website project using github issues. I defined user stories for the features and functions. 
 
-To map my user stories to GitHub project for my website, I created a GitHub repository for my project and used the GitHub project feature to track the user stories. I linked each user story to a GitHub issue and used a label to indicate priority.
+I mapped my user stories to GitHub project for my website. I created a GitHub repository for my project and used the GitHub project feature to track the user stories. I linked each user story to a GitHub issue and used labels to indicate priority.
 
 
 <br>
@@ -153,7 +153,7 @@ I wrote these users stories and used Github projects feature to track them
 
 <br>
 
-![alt text](/static/css/images/userboard.JPG)
+![alt text](static/images/userboard.JPG)
 
 <br>
 
@@ -263,7 +263,7 @@ This feature allows users who have already registered an account to log in to th
 
 <br>
 
-User logout: This feature allows users to log out of their account when they are finished using your website. Logging out ensures that their account remains secure and that no one else can access their expenses.
+User logout: This feature allows users to log out of their account when they are finished using the website. Logging out ensures that their account remains secure and that no one else can access their expenses.
 
 <br>
 
@@ -420,7 +420,7 @@ The testing strategy for the website can be found here [Testing.md](https://gith
 
 <br>
 
-The site was deployed via Heroku, and the live link can be found here - [Expensed](https://dashboard.heroku.com/apps/expensed)
+The site was deployed via Heroku, and the live link can be found here - [SpendWise]
 
 <br>
 
@@ -499,4 +499,5 @@ I deployed my project to Herou using the following steps:
 
 
 <br>
+
 -------------

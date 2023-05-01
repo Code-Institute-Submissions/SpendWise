@@ -428,7 +428,7 @@ All the custom Python code was was tested manually thoughout the project and wit
 
 <br>
 
-- Sometimes, the user will get a 404 page error when they try to delete an expense. To reproduce the bug, the user needs to delete a large number of expense items. 
+- Sometimes, the user will get a 404 page error when they try to delete an expense. To reproduce the bug, the user needs to delete a large number of expense items. This bug is currently unresolved.
 
 <br>
 
