@@ -32,6 +32,9 @@
 ## About
 
 <br>
+
+[SpendWise](https://expense-tracker-101.herokuapp.com/)
+
 SpendWise is a website designed to help users track their spending and stay within their budget. With this app, users can easily add expenses as they occur, and the app will automatically calculate the total amount spent.
 
 The user can also set an initial budget and the app will automatically deduct your expenses from your budget, giving the user an up-to-date picture of their spending.
@@ -42,7 +45,7 @@ The app is designed to be user-friendly, with a simple interface that makes it e
 
 Overall, the expenses tracker app is a useful tool for anyone who wants to stay on top of their finances and make sure they are staying within their budget.
 
-Link to live website
+
 
 
 <br>
@@ -420,7 +423,7 @@ The testing strategy for the website can be found here [Testing.md](https://gith
 
 <br>
 
-The site was deployed via Heroku, and the live link can be found here - [SpendWise]
+The site was deployed via Heroku, and the live link can be found here - [SpendWise](https://expense-tracker-101.herokuapp.com/)
 
 <br>
 
