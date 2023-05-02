@@ -33,7 +33,7 @@
         
         
         <div class="form_container"> 
-            <h2>Add an expense</h2>  
+            <h2>Add an expense (max: $100,000)</h2>  
             <form  class = "all_forms" method= "POST" action = "">
                     {% csrf_token %}
                     {{form.as_p}}
