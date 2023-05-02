@@ -13,6 +13,15 @@ body {
     
 
 }
+#current {
+    display:flex;
+    justify-content: center;
+}
+#current p {
+    font-size: 1.2vw;
+    font-style: italic;
+
+}
 .container {
     text-align: center;
     justify-content: center;
@@ -253,10 +262,7 @@ body {
    
     
 }
-.form_container {
-   
-    
-}
+
 .form_container h2 {
     
     text-align: center;
@@ -512,9 +518,7 @@ body {
 
 
 @media screen and (max-width: 1350px) {
-    body {
-
-    }
+ 
 
     #image_container {
         padding: 5%;
@@ -573,9 +577,7 @@ body {
     .expense_buttons {
         font-size: 15px;
     }
-    #home { 
-       
-    }
+ 
     #main {  
         text-align: center;
         letter-spacing: 3px;
@@ -629,6 +631,12 @@ body {
     .leftover h3 {
         font-size: 17px;
     }
+  
+    #current p {
+        font-size: 17px;
+        font-style: italic;
+    
+    }
     
     
     
@@ -649,6 +657,12 @@ body {
         width:30%;
 
     }
+    #current p {
+        font-size: 15px;
+        font-style: italic;
+    
+    }
+    
 
 
     .expense_buttons {
@@ -661,12 +675,8 @@ body {
         width:30%;
     }
         
-    #text_box {
-       
-    }
-    #image_container{
-        
-    }
+  
+
     #main {  
         
         font-size: 30px;

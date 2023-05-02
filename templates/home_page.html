@@ -30,7 +30,14 @@
                 <li><a href="/accounts/logout/" >Logout</a></li>
                 {% endif %}
             </ul>   
+            {% if user.is_authenticated %} 
+
+            <div  id = "current" > 
+                <p>Welcome, {{ user.username }}</p>
+            </div>
+           {% endif %}
         </nav>
+
     </header>
     
     <div id = "about_container">

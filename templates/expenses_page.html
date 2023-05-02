@@ -31,7 +31,13 @@
                 {% if user.is_authenticated %} 
                 <li><a href="/accounts/logout/" >Logout</a></li>
                 {% endif %}
-            </ul>   
+
+            </ul>
+            {% if user.is_authenticated %} 
+            <div  id = "current" > 
+                <p>Welcome, {{ user.username }}</p>
+            </div>
+           {% endif %}
         </nav>
         </div>
     </header>
@@ -55,6 +61,7 @@
         
     </div>
     {% if user.is_authenticated %}  
+    
     <div class="main_buttons_container">
        
         <div class="typewiter budget"  >
@@ -73,6 +80,7 @@
     {% endif %}
     {% if not user.is_authenticated %}  
     <div class = "main_buttons_container">
+      
             
        
         <div class="typewiter budget">
@@ -158,7 +166,6 @@
     <script src = "{% static 'js/main.js' %}"></script>
 
     
-
 
 
   

@@ -23,6 +23,7 @@ def exp_page(request):
         'budget_total': budget_total,
         'leftover': leftover,
         'last_object': last_object,
+        'user': request.user
     }
     context = {
         'expenses': expenses,
